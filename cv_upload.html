@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>cv upload</title>
+  <link rel="stylesheet" href="./css/cv_upload.css" />
+</head>
+
+<body>
+  <div class="container">
+    <form class="card">
+      <div class="card-inner">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="./asset/cv_upload_img/brandlogo.png" alt="logo" />
+        </div>
+
+        <!-- Heading -->
+        <h2>Add your Resume</h2>
+
+        <!-- Input -->
+
+        <div class="upload-box">
+          <input type="file" id="fileInput" accept=".pdf" hidden />
+          <figure class="icon_upload">
+            <img src="./asset/cv_upload_img/upload-01.png" alt="png">
+          </figure>
+          <label for="fileInput" class="upload-content">
+            <!-- <span class="icon">⬆</span> -->
+            <span>
+              Drag and drop or
+              <span class="choose">choose file</span>
+            </span>
+          </label>
+        </div>
+        <p class="note">Use a pdf - size must be less that 5MB</p>
+
+        <!-- Buttons -->
+        <div class="btns">
+          <a href="./Import-Profile.html" class="btn back">Back</a>
+          <input type="submit" class="btn update" />
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="./J.S/cv_upload.js"></script>
+</body>
+
+</html>

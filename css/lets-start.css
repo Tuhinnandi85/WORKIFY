@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Poppins", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/*   font-family: "Judson", serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+body {
+    background: #1f1f1f;
+    padding: 40px 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1025px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.opportunity-part {
+    background:
+        url("./assets/bg-body.png") no-repeat right 80px center,
+        #F58B2B;
+    background-size: 460px, cover;
+    border-radius: 16px;
+    padding: 40px 45px 50px;
+    min-height: 520px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.workify-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workify-logo-img img {
+
+    width: 120px;
+    height: 120px;
+}
+
+.close-btn svg {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+
+.steps-into-next {
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+.steps-into-next h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    max-width: 520px;
+    line-height: 1.35;
+     font-family: "Judson", serif;
+}
+
+
+.highlights-point {
+    max-width: 520px;
+}
+
+.imp-points {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.imp-points:last-child {
+    border-bottom: none;
+}
+
+.imp-points img {
+    width: 18px;
+    filter: brightness(0) invert(1);
+}
+
+.imp-points h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+}
+
+
+.start-point {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.start-btn {
+    background: #fff;    
+    color: #F58B2B;   
+    text-decoration: none;    
+    padding: 16px 28px;   
+    font-size: 16px;    
+    border-radius: 50px;    
+    font-weight: 500;                           
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);           
+    margin-right: 10px;               
+    transition: 0.3s all ease-in;     
+    font-family: "Poppins", sans-serif;      
+
+}
+
+.start-btn:hover {
+    background-color: #f7e3d1;
+
+}
+
+.start-point h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    /* line-height: 1.4; */
+    
+}
+
+.close-btn svg {
+    border-radius: 50%;
+    transition:
+        background-color 0.3s ease,
+        transform 0.25s ease;
+}
+
+.close-btn:hover svg {
+    fill: #F58B2B;
+    transition: 0.8s all ease-in;
+    stroke: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .start-point {
+        flex-direction: column;
+    }
+
+    .start-btn {
+        margin-bottom: 20px;
+    }
+}

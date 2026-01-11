@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/*   font-family: "Judson", serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* font-family: "Poppins", sans-serif; */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+a{
+  display: inline-block;
+  text-decoration: none;}
+
+body {
+  background: #1e1e1e;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Dark background overlay */
+.container {
+  height: 100vh;
+  /* height: 560px; */
+  width: 1025px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* White outer card */
+.card {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+  /* width: 520px; */
+}
+
+/* Blue inner card */
+.card-inner {
+  background: #0b1560;
+  border-radius: 12px;
+  padding: 30px 160px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Heading */
+.card-inner h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin: 30px 0;
+  font-weight: 400;
+  font-family: "Judson", serif;
+}
+
+/* Input */
+input[type="text"] {
+  width: 600PX;
+  padding: 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+.input[type="text"]:-webkit-autofill,
+.input[type="text"]:-webkit-autofill:hover,
+.input[type="text"]:-webkit-autofill:focus,
+.input[type="text"]:-webkit-autofill:active {
+  -webkit-text-fill-color: rgba(255, 255, 255, 1) !important;
+  caret-color: rgba(255, 255, 255, 1);
+}
+
+
+/* Buttons */
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  /* cursor: pointer; */
+  font-size: 18px;
+}
+
+/* Back button */
+.btn.back {
+  background: transparent;
+  color: #ffffff;
+  transition: 0.3s all ease-in;
+}
+
+.btn.back:hover{
+background: white;
+color: #ff6b00;
+}
+
+/* Update button */
+.btn.update {
+  background: #ffffff;
+  color: #ff6b00;
+  border: none;
+  transition: 0.3s all ease-in;
+
+}
+.btn.update:hover{
+  background-color: #e2c2ab;
+}
