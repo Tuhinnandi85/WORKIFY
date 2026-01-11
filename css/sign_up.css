@@ -62,13 +62,14 @@
 
 /* logo */
 .logo {
-  width: 60px;
+  width: 120px;
   margin-bottom: 30px;
 }
 
 /* options */
 .options-row {
   margin-bottom: 30px;
+
 }
 
 .option {
@@ -82,6 +83,7 @@
   font-size: 14px;
   font-weight: 600;
   transition: all 0.3s ease;
+  /* text-align: left; */
 }
 
 /* hover effect */
