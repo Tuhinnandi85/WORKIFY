@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+
+/* font-family: "Judson", serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: "Poppins", sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+  background: #000;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  height: 100vh;
+  width: 1025px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.card-inner {
+  /* max-width: 925px; */
+  background: #0b1560;
+  border-radius: 12px;
+  padding: 30px 98px;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.card-inner .content>h2 {
+  max-width: 725px;
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Judson", serif;
+
+}
+
+.experience-btn {
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+  text-decoration: underline;
+  color: #ffffff;
+  padding-bottom: 90px;
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px){
+  .card-inner {
+    padding: 20px 40px;
+
+  }
+  .card{
+    margin: 0 auto;
+  }
+
+}
