@@ -70,10 +70,8 @@ body {
 
 .steps-into-next h1 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 400;
     color: #fff;
-    max-width: 520px;
-    line-height: 1.35;
      font-family: "Judson", serif;
 }
 
