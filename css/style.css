@@ -36,7 +36,7 @@ li {
 html,
 body {
     font-family: "Poppins", sans-serif;
-    background-color: blue;
+
     /* overflow-x: hidden; */
 
 
@@ -66,6 +66,7 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 
 .row {
     display: flex;
@@ -114,13 +115,13 @@ img {
 .social-icons {
     display: flex;
     justify-content: space-between;
-    gap: 20PX;
+    gap: 30PX;
 
 
 }
 
 .contact-info li a {
-    color: white;
+    color: rgba(255, 255, 255, .60);
     border-bottom: 2px solid transparent;
 }
 
@@ -208,12 +209,13 @@ nav {
 
 .dropdown_content li a {
     color: #EDE1F3;
+
 }
 
 
 .dropdown a:hover .dropdown-content {
     display: block;
-    
+
 }
 
 .auth-buttons {
@@ -264,10 +266,7 @@ nav {
 .banner {
     position: relative;
     min-height: calc(100vh - 80px);
-
-
     background: linear-gradient(to right, rgba(250, 106, 10, 0.3) 33%, rgba(255, 255, 255, 0.2) 100%), url('../asset/HOME_PAGE/banner/hero.png') center / cover no-repeat;
-
     padding: 100px 0;
 }
 
@@ -277,9 +276,7 @@ nav {
 
 .banner_content {
     display: flex;
-    /* background-color: red; */
     position: relative;
-    /* top: 200px; */
     transform: translate(15%, 80%);
 }
 
@@ -292,10 +289,6 @@ nav {
     color: var(--white);
 
 }
-
-
-
-
 
 /* OFFER */
 
@@ -350,7 +343,7 @@ nav {
 
 
 
-/* card */
+/* CARD */
 
 
 
@@ -387,18 +380,70 @@ nav {
 
 .dtles a {
     font-size: 18px;
-   border-bottom: 1px solid #0B125A;
-   color: #0B125A;
-   transition: 0.3s all ease-in;
+    border-bottom: 1px solid #0B125A;
+    color: #0B125A;
+    transition: 0.3s all ease-in;
 }
 
-.dtles a:hover{
+.dtles a:hover {
     color: #F08526;
-     border-bottom: 1px solid #F08526;
+    border-bottom: 1px solid #F08526;
 }
 
 
 
+/* ==== DISCOVER==== */
+
+.discover {
+    min-height: 229px;
+    width: 100%;
+    background: #F08526 url('../asset/HOME_PAGE/freeliance_project_bg/freeliance_project.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px 20px; */
+
+}
+
+.discover_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discover_content .discover_text {
+    /* text-align: center; */
+    font-size: 36px;
+    font-family: "Judson", serif;
+    color: var(--white);
+    margin-bottom: 30px;
+
+
+}
+
+.discover_content .discover_text .change {
+    color: black;
+}
+
+.Oppotunities {
+    padding: 16px 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: var(--white);
+    transition: 0.3s all ease-in;
+}
+
+.Oppotunities:hover {
+    background-color: white;
+    color: #F08526;
+    border: 2px solid #F08526;
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
 
 
 
