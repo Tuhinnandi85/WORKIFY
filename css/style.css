@@ -290,7 +290,7 @@ nav {
 
 }
 
-/* OFFER */
+/* ==== OFFER ==== */
 
 .offer {
     background-color: var(--purple);
@@ -299,7 +299,7 @@ nav {
 
 .get {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap: 80px;
     background-color: var(--dark_blue);
@@ -441,23 +441,69 @@ nav {
     background-color: white;
     color: #F08526;
     border: 2px solid #F08526;
-   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 
 }
 
 /* ====GLOBE==== */
 
-.globe_text{
+.globe_text {
     font-size: 48px;
-     font-family: "Judson", serif;
-     margin: 35px 0;
-     text-align: center;
+    font-family: "Judson", serif;
+    margin: 35px 0;
+    text-align: center;
 
 }
 
+h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
 
+}
 
+.post {
+    max-width: 645px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.skilled {
+    margin-top: 30px;
+    text-align: right;
+  
+
+}
+.skilled h6{
+  font-size: 36px;
+    font-family: "Judson", serif;
+    color: #0B125A;
+}
+
+.skilled a{
+    margin-top: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #0B125A;
+    color: #0B125A;
+
+}
 
 /* =========================================
    RESPONSIVE DESIGN (Media Queries)
    ========================================= */
+
+
+
+ @media screen and (min-width: 1399px)  {
+.get{
+    padding: 15px 40px;
+   
+}
+.get h2 {
+ font-size: 30px;
+}
+.get_offer{
+    font-size: 14px;
+}
+    
+   }
