@@ -445,6 +445,15 @@ nav {
 
 }
 
+/* ====GLOBE==== */
+
+.globe_text{
+    font-size: 48px;
+     font-family: "Judson", serif;
+     margin: 35px 0;
+     text-align: center;
+
+}
 
 
 
