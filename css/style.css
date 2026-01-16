@@ -74,11 +74,13 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 -15px;
+    align-items:stretch;
 
 }
 
 .col {
     padding: 0 15px;
+    display: flex;
 }
 
 .col-50 {
@@ -433,7 +435,7 @@ nav {
 }
 
 .discover_content .discover_text {
-    /* text-align: center; */
+    text-align: center;
     font-size: 36px;
     font-family: "Judson", serif;
     color: var(--white);
@@ -501,9 +503,15 @@ h5 {
 .skilled a {
     margin-top: 10px;
     font-size: 18px;
-    border-bottom: 2px solid #0B125A;
+    border-bottom: 1px solid #0B125A;
     color: #0B125A;
+    transition: 0.3s all ease-in;
 
+}
+
+.skilled a:hover {
+    border-bottom: 1px solid #F08526;
+    color: #F08526;
 }
 
 
@@ -565,7 +573,8 @@ h5 {
     box-shadow: -5px 4px 10px rgba(0, 0, 0, .15);
     transition: 0.3s all ease-in;
 }
-.next-btn:hover{
+
+.next-btn:hover {
     background-color: white;
     color: #0B125A;
     border: 1px solid #0B125A;
@@ -581,95 +590,172 @@ h5 {
 
 
 
-@media (max-width: 1399px) {
+@media screen and (max-width: 1399px) {
     .get {
-        padding: 30px 30px;
+        padding: 28px 80px;
 
     }
 
     .get h2 {
-        font-size: 30px;
+        font-size: 32px;
+    }
+
+    .get_offer {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .get {
+        padding: 26px 70px;
+
+    }
+
+    .get h2 {
+        font-size: 28px;
+    }
+
+    .get_offer {
+        font-size: 18px;
+    }
+
+
+    .col-md-33 {
+        width: 33.33%;
+    }
+
+    .card_text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .get {
+        padding: 24px 50px;
+
+    }
+
+    .get h2 {
+        font-size: 22px;
     }
 
     .get_offer {
         font-size: 16px;
     }
 
+    .project_content h3 {
+        font-size: 44px;
+    }
+
+    .col-md-33 {
+        width: 33.33%;
+    }
+.card{
+    padding: 16px;
+}
+    .card_text {
+        font-size: 16px;
+
+    }
+
+    .discover_text{
+        text-align: center;
+        font-size: 32px;
+    }
+
 }
 
-@media (max-width: 1199px) {
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
     .get {
-        padding: 20px 20px;
+        padding: 22px 28px;
 
     }
 
     .get h2 {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .get_offer {
         font-size: 14px;
     }
 
+    .project_content h3 {
+        font-size: 40px;
+    }
 
     .col-md-33 {
         width: 33.33%;
     }
+      .card_text {
+        font-size: 14px;
 
-    .card_text {
-        font-size: 20px;
     }
+
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 576px) {
+    nav {
+        display: none;
+    }
+
+    .get {
+        padding: 10px 8px;
+
+    }
+
+    .get h2 {
+        font-size: 14px;
+    }
+
+    .get_offer {
+        font-size: 10px;
+    }
+
+    .project_content h3 {
+        font-size:40px;
+    }
+
+    .col-sm-50 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+ nav {
+        display: none;
+    }
+
     .get {
         padding: 10px 10px;
 
     }
 
     .get h2 {
-        font-size: 16px;
-    }
-
-    .get_offer {
         font-size: 12px;
     }
 
-    h3 {
-        font-size: 16px;
-    }
-
-    .col-md-33 {
-        width: 33.33%;
-    }
-
-    .card_text {
-        font-size: 16px;
-    }
-
-}
-
-
-@media (max-width: 768px) {
-    .get {
-        padding: 8px 8px;
-
-    }
-
-    .get h2 {
-        font-size: 16px;
-    }
-
     .get_offer {
-        font-size: 12px;
+        font-size: 10px;
     }
 
-    h3 {
-        font-size: 16px;
+    .project_content h3 {
+        font-size:40px;
     }
 
-    .col-md-33 {
-        width: 33.33%;
+    .col-sm-50 {
+        width: 50%;
+    }
+      .card_text {
+        font-size: 14px;
+
     }
 
 }
