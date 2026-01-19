@@ -37,29 +37,71 @@
     <header>
         <div class="topbar">
             <div class="container">
-                <div class="top_logos">
-                    <div class="left">
-                        <ul class="contact-info">
-                            <li><a href="#">
-                                    <i class="fa-regular fa-envelope"></i> workify1234@gmail.com
-                                </a></li>
-                            <li><a href="#">
-                                    <i class="fa-solid fa-globe"></i> http://www.workify1234.in
-                                </a></li>
-                            <li><a href="#">
-                                    <i class="fa-solid fa-location-dot"></i> http://maps.app.goo.gl/CRhjyio74
-                                </a></li>
+                <div class="topbar-wrapper">
+                    <div class="topbar-lft">
+                        <ul class="topbar-info">
+                            <li class="topbar-info-item">
+                                <a href="#" class="topbar-info-link">
+                                    <figure>
+                                        <img src="./asset/HOME_PAGE/topbar/mail.svg" alt="Mail" />
+                                    </figure>
+                                    workify1234@gmail.com
+                                </a>
+                            </li>
+                            <li class="topbar-info-item">
+                                <a href="#" class="topbar-info-link">
+                                    <figure>
+                                        <img src="./asset/HOME_PAGE/topbar/global.svg" alt="Global" />
+                                    </figure>
+                                    http://www.workify1234.in
+                                </a>
+                            </li>
+                            <li class="topbar-info-item">
+                                <a href="#" class="topbar-info-link">
+                                    <figure>
+                                        <img src="./asset/HOME_PAGE/topbar/location.svg" alt="Location" />
+                                    </figure>
+                                    http://maps.app.goo.gl/CRhjyio74
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="right">
-                        <ul class="social-icons">
-                            <li><a href="#"> <img src="./asset/HOME_PAGE/topbar/facebook-02.png" alt="facebook"></a>
+                    <div class="topbar-rgt">
+                        <ul class="topbar-social">
+                            <li class="topbar-social-item">
+                                <a href="" class="topbar-social-link">
+                                    <figure>
+                                        <img src="./asset/HOME_PAGE/topbar/facebook.svg" alt="Facebook" />
+                                    </figure>
+                                </a>
                             </li>
-                            <li><a href="#"> <img src="./asset/HOME_PAGE/topbar/instagram.png" alt="instagram"></a></li>
-                            <li><a href="#"> <img src="./asset/HOME_PAGE/topbar/linkedin-02.png" alt="linkedin"></a>
+                            <li class="topbar-social-item">
+                                <a href="" class="topbar-social-link">
+                                    <figure>
+                                        <img src="./asset/HOME_PAGE/topbar/instagram.svg" alt="Instagram" />
+                                    </figure>
+                                </a>
                             </li>
-                            <li><a href="#"> <img src="./asset/HOME_PAGE/topbar/youtube.png" alt="youtube"></a></li>
-                            <li><a href="#"> <img src="./asset/HOME_PAGE/topbar/new-twitter.png" alt="new-twitter"></a>
+                            <li class="topbar-social-item">
+                                <a href="" class="topbar-social-link">
+                                    <figure>
+                                        <img src="./asset/HOME_PAGE/topbar/linkedin.svg" alt="Linkedin" />
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="topbar-social-item">
+                                <a href="" class="topbar-social-link">
+                                    <figure>
+                                        <img src="./asset/HOME_PAGE/topbar/youtube.svg" alt="Youtube" />
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="topbar-social-item">
+                                <a href="" class="topbar-social-link">
+                                    <figure>
+                                        <img src="./asset/HOME_PAGE/topbar/twitter.svg" alt="Twitter" />
+                                    </figure>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -69,69 +111,167 @@
         <div class="navbar">
             <div class="container">
                 <nav>
-                    <div class="navbar_brand">
-                        <div class="nav_logo">
-                            <a href="#">
-                                <img src="./asset/HOME_PAGE/logo/logo.png" alt="company_logo">
-                            </a>
-                        </div>
-                        <div class="nav_toggle">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-                    </div>
-                    <div class="nav_items">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./asset/HOME_PAGE/logo/logo.svg" alt="logo" />
+                    </a>
+
+                    <!-- ✅ menu list -->
+                    <div class="navbar-menu" id="navbarMenu">
                         <ul class="navlist">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li>
-                                <div class="dropdown">
-                                    <a href="#">Hire Freelancers <i class="fa-solid fa-angle-down"></i> </a>
-
-                                    <ul class="dropdown_content">
-                                        <li><a href="#">Development & IT</a></li>
-                                        <li><a href="#"> Admin & Support</a></li>
-                                        <li><a href="#">Design & creative</a></li>
-                                        <li><a href="#"> Digital Marketing</a></li>
-                                        <li><a href="#"> Writing & Content</a></li>
-                                        <li><a href="#">Ai & Emeragning Tech</a></li>
-                                        <li><a href="#">Video,Audio & animation</a></li>
-                                    </ul>
-
-
-                                </div>
-
+                            <li class="nav-item"><a href="#" class="navlink">Home</a></li>
+                            <li class="nav-item">
+                                <a href="#" class="navlink">About Us</a>
                             </li>
-                            <li><a href="#">Find Work <i class="fa-solid fa-angle-down"></i> </a></li>
-                            <li><a href="#">Job Feed</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Contact Us</a></li>
+
+                            <li class="nav-item">
+                                <a href="#" class="navlink">
+                                    Hire Talent
+                                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.75 0.750111C12.75 0.750111 8.3311 6.75006 6.75 6.75006C5.1688 6.75006 0.75 0.750061 0.75 0.750061"
+                                            stroke="#0B125A" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-navlist">
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Graphic & Creative Designer</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Developement & IT</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Admin & Support</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Digital Marketing</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Writing & Content</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">AI & Emerging Tech</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Video, Audio & Animation</a>
+                                    </li>
+                                    <hr />
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Explore More</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Book Consultation</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="navlink">
+                                    Find Work
+                                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.75 0.750111C12.75 0.750111 8.3311 6.75006 6.75 6.75006C5.1688 6.75006 0.75 0.750061 0.75 0.750061"
+                                            stroke="#0B125A" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-navlist">
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Graphic & Creative Designer</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Developement & IT</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Admin & Support</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Digital Marketing</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Writing & Content</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">AI & Emerging Tech</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Video, Audio & Animation</a>
+                                    </li>
+                                    <hr />
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Explore More</a>
+                                    </li>
+                                    <li class="dd-navitem">
+                                        <a href="#" class="dd-navlink">Book Consultation</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="navlink">Pricing</a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="navlink">Blogs</a></li>
+                            <li class="nav-item">
+                                <a href="#" class="navlink">Contact Us</a>
+                            </li>
                         </ul>
                     </div>
 
-                    <div class="auth-buttons">
-                        <a href="#" class="btn btn-light">Sign In</a>
-                        <a href="./sign_up.html" class="btn btn-primary">Sign Up</a>
+                    <div class="navbar-actions">
+                        <ul class="navbar-action-btns">
+                            <li class="navbar-btns">
+                                <a href="#" class="btn btn-primary">Sign In</a>
+                            </li>
+                            <li class="navbar-btns">
+                                <a href="#" class="btn btn-secondary">Sign Up</a>
+                            </li>
+
+                            <!-- ✅ toggle button -->
+                            <li>
+                                <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                            </li>
+                        </ul>
                     </div>
-
-
-
                 </nav>
             </div>
         </div>
-
-
     </header>
 
     <main>
-        <section class="banner ">
+        <section class="banner">
             <div class="container">
-                <div class="banner_lay">
-                    <div class="banner_content">
-                        <h1>Your Marketplace for Small Gigs and Big Results.</h1>
+                <div class="banner-content">
+                    <h1>Your Marketplace for Small Gigs and Big Results.</h1>
+                </div>
+                <div class="hero-search" id="heroSearch">
+                    <!-- Tabs -->
+                    <div class="search-tabs" role="tablist" aria-label="Search Tabs">
+                        <button class="tab-btn active" type="button" data-tab="expert">
+                            Hire an Expert
+                        </button>
 
+                        <button class="tab-btn" type="button" data-tab="job">
+                            Browse Job
+                        </button>
+                    </div>
 
+                    <!-- Subtitle -->
+                    <p class="search-subtitle" id="searchSubtitle">
+                        Hire trusted experts with the right skills and experience to
+                        deliver outstanding results.
+                    </p>
 
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <input type="text" id="searchInput" placeholder="Search by role, skills or keywords"
+                            aria-label="Search" />
 
+                        <button class="search-btn" id="searchBtn" type="button" aria-label="Search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -343,6 +483,7 @@
             </div>
         </section>
 
+
         <section class="compare section-padding">
             <div class="container2">
                 <div class="row">
@@ -369,6 +510,50 @@
             </div>
 
         </section>
+        <section class="paying-sec section-padding">
+            <div class="container2">
+                <div class="paying-content">
+                    <h4> <span class="highlight">No upfront charges</span> — Pay after hiring the Talent</h4>
+                </div>
+                <div class="row">
+                    <div class="col col-50">
+
+                        <div class="card basic">
+                            <h3 class="plan-title">Basic</h3>
+                            <p class="plan-subtitle">For starting out</p>
+                            <p class="fee">5% Service fee after hiring</p>
+
+                            <ul class="features">
+                                <li>Post and manage up to 5 jobs per month</li>
+                                <li>Access to a limited pool of freelancers</li>
+                                <li>Secure payment processing through the platform</li>
+                            </ul>
+
+                            <a href="#" class="btn basic">Start Now for Free</a>
+                        </div>
+                    </div>
+                    <div class="col col-50">
+
+                        <div class="card business">
+                            <div class="badge">POPULAR</div>
+                            <h3 class="plan-title">Business Prime</h3>
+                            <p class="plan-subtitle">For growing</p>
+                            <p class="fee">10% Service fee after hiring</p>
+
+                            <ul class="features">
+                                <li>Post and manage unlimited jobs</li>
+                                <li>Access to top-tier freelancers</li>
+                                <li>Advanced project management tools and analytics</li>
+                                <li>Priority support</li>
+                            </ul>
+
+                            <a href="#" class="btn business">Start Now for Free</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -377,101 +562,111 @@
     </main>
 
     <footer>
- <section class="footer-section">
-                <div class="container footer-top">
-                    <div class="footer-col footer-brand">
-                        <img src="./asset/footer/footer-logo.png" alt="Workify Logo" class="footer-logo">
-                        <p class="contact"> +91 1234567890</p>
+        <section class="footer-section">
+            <div class="container footer-top">
+                <div class="footer-col footer-brand">
+                    <img src="./asset/footer/footer-logo.png" alt="Workify Logo" class="footer-logo">
+                    <div class="footer-icon">
+                        <a href="#">
+                            <img src="./asset/footer/call-02.svg" alt="icon" class="contact-icon"> +91 1234567890
+                        </a>
+                        <a href="#">
+                            <img src="./asset/footer/mail-at-sign-01.svg" alt="icon" class="contact-icon">
+                            workifly1234@gmail.com
+                        </a>
 
-                        <p class="contact"><i class="icon-email"></i> workifly1234@gmail.com</p>
-                        <p class="contact"><i class="icon-link"></i> http://www.workifly1234.in</p>
-
-                        <div class="footer-social">
-                            <span>Follow us :</span>
-                            <a href="#" class="social-icon"><img src="./asset/footer/facebook-02.svg"></a>
-                            <a href="#" class="social-icon"><img src="./asset/footer/instagram.svg"></a>
-                            <a href="#" class="social-icon"><img src="./asset/footer/linkedin-02.svg"></a>
-                            <a href="#" class="social-icon close"><img src="./asset/footer/youtube.svg"></a>
-                            <a href="#" class="social-icon close"><img src="./asset/footer/new-twitter.svg"></a>
-                        </div>
-
-                        <div class="footer-app">
-                            <span>Mobile App :</span>
-
-                            <span class="app-icon"><img src="./asset/footer/android.svg"></span>
-                            <span class="app-icon"><img src="./asset/footer/apple.svg"></span>
-                        </div>
+                        <a href="#">
+                            <img src="./asset/footer/global.svg" alt="icon"
+                                class="contact-icon">http://www.workify1234.in
+                        </a>
                     </div>
 
-
-                    <div class="footer-col">
-                        <p>Clients</p>
-                        <ul>
-                            <li><a href="#">Become a registered Client</a></li>
-                            <li><a href="#">How to Hire</a></li>
-                            <li><a href="#">Project Catalog</a></li>
-                            <li><a href="#">Browse Freelance by Skill</a></li>
-                            <li><a href="#">Business Plus</a></li>
-                            <li><a href="#">Contract-to-hire</a></li>
-                            <li><a href="#">Mini Workify Guide</a></li>
-                        </ul>
+                    <div class="footer-social">
+                        <span>Follow us :</span>
+                        <a href="#" class="social-icon"><img src="./asset/footer/facebook-02.svg"></a>
+                        <a href="#" class="social-icon"><img src="./asset/footer/instagram.svg"></a>
+                        <a href="#" class="social-icon"><img src="./asset/footer/linkedin-02.svg"></a>
+                        <a href="#" class="social-icon close"><img src="./asset/footer/youtube.svg"></a>
+                        <a href="#" class="social-icon close"><img src="./asset/footer/new-twitter.svg"></a>
                     </div>
 
+                    <div class="footer-app">
+                        <span>Mobile App :</span>
 
-                    <div class="footer-col">
-                        <p>Freelancer</p>
-                        <ul>
-                            <li><a href="#">Become a registered Freelancer</a></li>
-                            <li><a href="#">How to find work</a></li>
-                            <li><a href="#">Project Management</a></li>
-                            <li><a href="#">API for Developers</a></li>
-                            <li><a href="#">Get Verified</a></li>
-                            <li><a href="#">Community Hub</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Events</a></li>
-                        </ul>
+                        <span class="app-icon"><img src="./asset/footer/android.svg"></span>
+                        <span class="app-icon"><img src="./asset/footer/apple.svg"></span>
                     </div>
-
-
-                    <div class="footer-col">
-                        <p>Company</p>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Partnerships</a></li>
-                            <li><a href="#">Trust, Safety & Security</a></li>
-                            <li><a href="#">Modern slavery statement</a></li>
-                            <li><a href="#">Invite a Friend</a></li>
-                        </ul>
-                    </div>
-
-
-                    <div class="footer-col">
-                        <p>Resources</p>
-                        <ul>
-                            <li><a href="#">Help & Support</a></li>
-                            <li><a href="#">Success Stories</a></li>
-                            <li><a href="#">Mini Workify reviews</a></li>
-                            <li><a href="#">Business cost calculator</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </div>
-
                 </div>
 
 
-                <div class="footer-bottom container">
-                    <a href="#">Terms of Services</a>
-                    <a href="#">Code of Conduct</a>
-                    <a href="#">Copyright Policy</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">CA notice at Collection</a>
-                    <a href="#">Your privacy Choices</a>
-                    <a href="#">Accessibility</a>
-                    <span>2015-2025 Workify™ Global LLC</span>
+                <div class="footer-col">
+                    <p>Clients</p>
+                    <ul>
+                        <li><a href="#">Become a registered Client</a></li>
+                        <li><a href="#">How to Hire</a></li>
+                        <li><a href="#">Project Catalog</a></li>
+                        <li><a href="#">Browse Freelance by Skill</a></li>
+                        <li><a href="#">Business Plus</a></li>
+                        <li><a href="#">Contract-to-hire</a></li>
+                        <li><a href="#">Mini Workify Guide</a></li>
+                    </ul>
                 </div>
-            </section>
+
+
+                <div class="footer-col">
+                    <p>Freelancer</p>
+                    <ul>
+                        <li><a href="#">Become a registered Freelancer</a></li>
+                        <li><a href="#">How to find work</a></li>
+                        <li><a href="#">Project Management</a></li>
+                        <li><a href="#">API for Developers</a></li>
+                        <li><a href="#">Get Verified</a></li>
+                        <li><a href="#">Community Hub</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <p>Company</p>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Partnerships</a></li>
+                        <li><a href="#">Trust, Safety & Security</a></li>
+                        <li><a href="#">Modern slavery statement</a></li>
+                        <li><a href="#">Invite a Friend</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <p>Resources</p>
+                    <ul>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                        <li><a href="#">Mini Workify reviews</a></li>
+                        <li><a href="#">Business cost calculator</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom container">
+                <a href="#">Terms of Services</a>
+                <a href="#">Code of Conduct</a>
+                <a href="#">Copyright Policy</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">CA notice at Collection</a>
+                <a href="#">Your privacy Choices</a>
+                <a href="#">Accessibility</a>
+                <span>2015-2025 Workify™ Global LLC</span>
+            </div>
+        </section>
     </footer>
 
 
@@ -482,6 +677,12 @@
     <!-- aos js -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- topbar manual js -->
+    <script src="./J.S/dropdown.js"></script>
+    <script src="./J.S/toggler.js"></script>
+    <!-- banner manual js -->
+    <script src="./J.S/hero.js"></script>
 
     <!-- aos init -->
     <script>

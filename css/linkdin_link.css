@@ -21,14 +21,39 @@ a{
   text-decoration: none;}
 
 body {
+   overflow-x: hidden;
   background: #1e1e1e;
   height: 100vh;
   font-family: "Poppins", sans-serif;
 }
 img{
+  max-width: 100%;
   height: 100%;
-  width: 100%;
   object-fit: cover;
+  display: block;
+}
+
+svg {
+  display: block;
+  pointer-events: none;
+}
+figure {
+  display: inline-block;
+  overflow: hidden;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.topbar .container,
+.navbar .container{
+  max-width: 1820px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* Dark background overlay */
