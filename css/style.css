@@ -34,6 +34,7 @@ li {
     --purple: #EDE1F3;
     --cream-orange: #FFE8D2;
     --judson: "Judson", serif;
+    --poppins: "Poppins", sans-serif;
 }
 
 html,
@@ -626,7 +627,7 @@ h1 {
 
 .discover {
 
-    background: #F08526 url('../asset/HOME_PAGE/freeliance_project_bg/freeliance_project.png');
+    background: #F08526 url('../asset/HOME_PAGE/freeliance_project_bg/bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -802,11 +803,12 @@ h5 {
     letter-spacing: 2px;
     text-align: center;
     font-family: "Judson", serif;
+    margin-bottom: 30px;
 }
 
-.card {
+.card .basic,
+.card .business {
     width: 100%;
-
     border-radius: 20px;
     padding: 55px;
     text-align: left;
@@ -900,13 +902,14 @@ h5 {
 
 .card.business .features li::before {
     color: white;
-}   
+}
 
 /* business */
 
 .business {
     background: var(--orange)
 }
+
 .badge {
     position: absolute;
     top: 0px;
@@ -919,6 +922,7 @@ h5 {
     letter-spacing: 2px;
     font-weight: 600;
     font-family: "Judson", serif;
+    z-index: 999;
 }
 
 .business .plan-title {
@@ -933,7 +937,7 @@ h5 {
     font-size: 16px;
     opacity: 0.8;
     color: var(--white);
-     margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .business .fee {
@@ -942,6 +946,7 @@ h5 {
     color: var(--white);
     margin-bottom: 20px;
 }
+
 .business .feature-heading {
     font-size: 24px;
     font-weight: 400;
@@ -955,20 +960,22 @@ h5 {
     font-size: 24px;
     color: var(--white);
     font-weight: 700;
-     margin-bottom: 32px;
+    margin-bottom: 24px;
     padding-left: 26px;
     position: relative;
     line-height: 1.5;
-  
+
 }
+
 .business .features li::before {
     content: "✓ ";
     position: absolute;
     left: 0;
     font-weight: bold;
     color: var(--white);
-    
+
 }
+
 .business .btn {
     width: 100%;
     padding: 16px;
@@ -982,6 +989,7 @@ h5 {
     border: 2px solid var(--white);
     color: var(--white);
     background: transparent;
+
 }
 
 .business .btn.business:hover {
@@ -990,11 +998,11 @@ h5 {
     box-shadow: -3px 3px 12px rgba(0, 0, 0, .2);
 }
 
- /*      =========== PAYING END ==========      */
+/*      =========== PAYING END ==========      */
 
 
- 
- /*===========================
+
+/*===========================
        SUCCESS SECTION(SLIDER)
 =============================
 */
@@ -1013,7 +1021,7 @@ h5 {
 
 .head-start {
     text-align: center;
-    font-family:var(--judson);
+    font-family: var(--judson);
     text-transform: capitalize;
     margin-bottom: 30px;
 }
@@ -1024,14 +1032,18 @@ h5 {
     max-width: 420px;
     min-height: 400px;
     border-radius: 20px;
-    font-family:var(--judson);
+    font-family: var(--judson);
 }
+
 
 .success-title {
     display: flex;
     align-items: center;
-    font-size: 15px;
-    font-weight: bold;
+    justify-content: flex-start;
+    font-size: 24px;
+    font-weight: 700;
+
+
 }
 
 .business-icon {
@@ -1040,27 +1052,42 @@ h5 {
 
 .success-card p {
     color: rgba(0, 0, 0, 60%);
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 10px;
     max-width: 350px;
     min-height: 135px;
+    margin-top: 20px;
+    font-family: var(--poppins);
+
 }
+
 
 .success-card ul {
     display: flex;
     align-items: center;
+
 }
 
 .stars {
     margin-right: 10px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+
 }
 
 .client-part {
+
     display: flex;
     align-items: center;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 60%);
+    font-family: var(--poppins);
+    margin-top: 20px;
+}
+
+.client-part .clint-profile {
+    font-size: 18px;
+    font-weight: 700;
     color: rgba(0, 0, 0, 60%);
 }
 
@@ -1083,12 +1110,12 @@ h5 {
 }
 
 .swiper-button-prev-custom,
-.swiper-button-next-custom{
-    cursor:pointer;
+.swiper-button-next-custom {
+    cursor: pointer;
 }
 
 
- /*===========================
+/*===========================
        SUCCESS SECTION(SLIDER)
 =============================
 */
@@ -1320,6 +1347,7 @@ h5 {
         /* display: none; */
         position: absolute;
         top: 110%;
+
         transform: translateX(-50%);
         /* Frost / base */
         background: rgba(11, 18, 90, 1);
@@ -1571,6 +1599,48 @@ h5 {
     }
 }
 
+@media screen and (max-width: 1024px) {
+
+    /* basic */
+    .card.basic .fee {
+        font-size: 16px;
+    }
+
+    .card.basic .feature-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .card.basic .features li {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    /* business */
+
+    .business .fee {
+        font-size: 16px;
+    }
+
+    .business .feature-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .business .features li {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .business .btn.business {
+        margin-top: 15px;
+
+    }
+}
+
 @media screen and (max-width: 991px) {
     .get {
         padding: 24px 50px;
@@ -1690,6 +1760,49 @@ h5 {
         font-size: 16px;
     }
 
+    /* paying-sec */
+    .paying-content h4 {
+        font-size: 36px;
+    }
+
+    /* basic */
+    .card.basic .fee {
+        font-size: 16px;
+    }
+
+    .card.basic .feature-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .card.basic .features li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+
+    /* business */
+
+    .business .fee {
+        font-size: 16px;
+    }
+
+    .business .feature-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .business .features li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .business .btn.business {
+        margin-top: 15px;
+
+    }
+
+
 
 
 }
@@ -1749,9 +1862,50 @@ h5 {
         font-size: 14px;
     }
 
+    /* paying-sec */
+ .paying-content h4 {
+        font-size: 30px;
+    }
+    /* basic */
+    .card.basic .fee {
+        font-size: 16px;
+    }
+
+    .card.basic .feature-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .card.basic .features li {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+
+    /* business */
+
+    .business .fee {
+        font-size: 16px;
+    }
+
+    .business .feature-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .business .features li {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+    .business .btn.business {
+        margin-top: 2px;
+
+    }
+
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
 
 
 
@@ -1812,11 +1966,82 @@ h5 {
         font-size: 10px;
     }
 
+    /* paying-sec */
+ .paying-content h4 {
+        font-size: 24px;
+    }
+    /* basic */
+    .card.basic .plan-title {
+        font-size: 16px;
+    }
+
+    .card.basic .plan-subtitle {
+        font-size: 14px;
+    }
+
+    .card.basic .fee {
+        font-size: 10px;
+    }
+
+    .card.basic .features {
+        margin-bottom: 0px;
+    }
+
+    .card.basic .feature-heading {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .card.basic .features li {
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+
+    .card.basic .btn {
+        padding: 8px;
+
+    }
+
+
+    /* business */
+
+    .business .plan-title {
+        font-size: 16px;
+    }
+
+    .business .plan-subtitle {
+        font-size: 14px;
+    }
+
+    .business .fee {
+        font-size: 10px;
+    }
+
+    .business .feature-heading {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .business .features li {
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+
+    .business .btn.business {
+        margin-top: 0px;
+
+    }
+
+    .business .btn {
+        padding: 8px;
+
+    }
+
 }
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     .get {
         padding: 5px 5px;
 
@@ -1844,5 +2069,87 @@ h5 {
 
     .dtles a {
         font-size: 14px;
+    }
+
+
+    /* paying-sec */
+
+ .paying-content h4 {
+        font-size: 20px;
+    }
+    /* basic */
+    .card.basic .plan-title {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .card.basic .plan-subtitle {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .card.basic .fee {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .card.basic .features {
+        margin-bottom: 0px;
+    }
+
+    .card.basic .feature-heading {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .card.basic .features li {
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+
+    .card.basic .btn {
+        padding: 2px;
+        font-size: 8px;
+        margin-top: 25px;
+
+    }
+
+
+    /* business */
+
+    .business .plan-title {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .business .plan-subtitle {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .business .fee {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .business .feature-heading {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .business .features li {
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+
+    .business .btn.business {
+        margin-top: 0px;
+
+    }
+
+    .business .btn {
+        padding: 2px;
+        font-size: 8px;
+
     }
 }

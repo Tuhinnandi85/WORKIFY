@@ -10,6 +10,7 @@ const successSwiper = new Swiper('.successSwiper', {
     },
 
     breakpoints: {
+     
         768: {
             slidesPerView: 2,
         },
