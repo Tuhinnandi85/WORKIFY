@@ -896,11 +896,7 @@ h5 {
     justify-content: center;
 }
 
-.priceSwiper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 
 /*      =========== PAYING ==========      */
@@ -1115,18 +1111,18 @@ h5 {
 /* ==== FREQUENTLY SEC START ===== */
 
 .faq-section {
-  background: #0a1458;
-  padding: 80px 0;
-  color: #fff;
+    background: #0a1458;
+    padding: 80px 0;
+    color: #fff;
 }
 
 .faq-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -1134,12 +1130,12 @@ h5 {
 
 
 .faq-left h2 {
-  font-size: 36px;
-  margin-bottom: 30px;
+    font-size: 36px;
+    margin-bottom: 30px;
 }
 
 .faq-left span {
-  color: #f08526;
+    color: #f08526;
 }
 
 
@@ -1148,57 +1144,57 @@ h5 {
 
 
 .faq-item {
-  border-bottom: 1px solid rgba(255,255,255,0.25);
-  padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 16px 0;
 }
 
 .faq-header {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
 }
 
 .faq-header p {
-  font-size: 17px;
-  text-decoration: none;
+    font-size: 17px;
+    text-decoration: none;
 }
 
 .faq-toggle {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  background: transparent;
-  color: #fff;
-  font-size: 18px;
-  cursor: pointer;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 /* BODY */
 .faq-body {
-  display: none;
-  margin-left: 40px;
-  margin-top: 8px;
-  font-size: 15px;
-  color: #dcdcdc;
+    display: none;
+    margin-left: 40px;
+    margin-top: 8px;
+    font-size: 15px;
+    color: #dcdcdc;
 }
 
 /* VIEW MORE */
 .view-more-wrap {
-  text-align: right;
-  margin-top: 25px;
+    text-align: right;
+    margin-top: 25px;
 }
 
 .view-more {
-  color: #fff;
-  text-decoration: underline;
-  font-weight: 500;
-  transition: 0.3s;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 .view-more:hover {
-  color: #f08526;
+    color: #f08526;
 }
 
 
@@ -1422,8 +1418,8 @@ button.submit {
     color: var(--white);
     border: none;
     padding: 16px 32px;
-   max-width: 400px;
-   width: 100%;
+    max-width: 400px;
+    width: 100%;
     font-size: 16px;
     font-weight: 400;
     border-radius: 20px;
@@ -1948,6 +1944,21 @@ button.submit:hover {
         margin-top: 15px;
 
     }
+
+
+    /* compare-pricing */
+
+    .priceSwiper {
+        width: 450px;
+    }
+
+    .compare-content h4 {
+        font-size: 36px;
+    }
+
+    .compare-content p {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -2003,7 +2014,37 @@ button.submit:hover {
         font-size: 16px;
     }
 
+    /* compare-pricing */
+   
 
+    .col-lg-100 {
+        width: 100%;
+    }
+
+    .compare-content {
+        max-width: 100%;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .compare-content>h4 {
+        font-size: 40px;
+    }
+
+    .compare-content>p {
+        margin-bottom: 60px;
+        font-size: 16px;
+    }
+
+    .input-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .priceSwiper {
+        margin: 0 auto;
+        height: 360px;
+    }
 }
 
 
@@ -2068,17 +2109,27 @@ button.submit:hover {
     .skilled a {
         font-size: 16px;
     }
+    /* compare */
+
+     .compare-both{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     /* .paying-sec */
 
-    .col-md-100{
+    .col-md-100 {
         width: 100%;
     }
-    .paying-sec .row{
+
+    .paying-sec .row {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .paying-content h4 {
         font-size: 36px;
     }
@@ -2119,6 +2170,9 @@ button.submit:hover {
         margin-top: 15px;
 
     }
+
+
+
 
 
 
@@ -2182,7 +2236,7 @@ button.submit:hover {
     }
 
     /* ==== ADVANTAGE ==== */
-    .advantage{
+    .advantage {
         flex-direction: column;
 
     }
@@ -2232,10 +2286,21 @@ button.submit:hover {
         margin-top: 2px;
 
     }
+    /* compare section */
+    
+
+    .compare-content h4 {
+        font-size: 28px;
+    }
+
+    .compare-content p {
+        font-size: 12px;
+    }
 
 
-    /* frequently */
-    .faq-container{
+    /* frequently section*/
+
+    .faq-container {
         flex-direction: column;
     }
 
@@ -2376,6 +2441,23 @@ button.submit:hover {
     .business .btn {
         padding: 8px;
 
+    }
+    /* compare-pricing */
+
+     .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .next-btn {
+        margin-top: 20px;
+    }
+
+    .input-field {
+        text-align: center;
+    }
+    .priceSwiper{
+        width:250px;
     }
 
 }
