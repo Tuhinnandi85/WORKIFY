@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./asset/fabicon/favicon-32x32.png">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="./css/freeliance-signup.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row auth-box">
+
+      <!-- LEFT SIDE -->
+      <div class="col50 left-panel">
+        <img src="./asset/freelance_sign_up/logo.png" alt="logo" loading="lazy">
+        <img src="./asset/freelance_sign_up/picture.png" alt="images" loading="lazy">
+      </div>
+
+      <!-- FORM SIDE -->
+      <div class="col50 right-panel">
+        <h2 class="title">Create your Account</h2>
+
+        <form id="registerForm">
+
+          <div class="row">
+            <div class="col50">
+              <label>First Name*</label>
+              <input type="text" required>
+            </div>
+            <div class="col50">
+              <label>Last Name*</label>
+              <input type="text" required>
+            </div>
+          </div>
+
+          <label>Date of Birth*</label>
+          <div class="dob">
+            <select id="day" required></select>
+            <select id="month" required></select>
+            <select id="year" required></select>
+          </div>
+
+          <label>Contact No*</label>
+          <input type="tel" required>
+
+          <label>Email ID*</label>
+          <input type="email" required>
+
+          <label>Create Password*</label>
+          <div class="password-box">
+            <input type="password" id="password" required placeholder="*use at least 8 alpha numeric characters...">
+            <i class="fa fa-eye" onclick="togglePass('password',this)"></i>
+          </div>
+
+          <label>Retype Password*</label>
+          <div class="password-box">
+            <input type="password" id="confirm" required>
+            <i class="fa fa-eye" onclick="togglePass('confirm',this)"></i>
+          </div>
+
+          <!-- OR -->
+          <div class="or-line"><span>Or</span></div>
+
+          <!-- SOCIAL -->
+          <div class="social">
+            <a href="https://accounts.google.com/" target="_blank" class="social google">
+              Continue with Google
+              <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="google" loading="lazy">
+            </a>
+
+            <a href="https://www.facebook.com/login/" target="_blank" class="social facebook">
+              Continue with Facebook
+              <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="facebook" loading="lazy">
+            </a>
+
+          </div>
+
+          <!-- CHECKBOX -->
+          <label class="checkbox">
+            <input type="checkbox">
+            <span></span>
+            Send me emails if there are any new updates
+          </label>
+
+          <button type="submit" class="register-btn">Register</button>
+
+          <div class="signin">
+            Already have an account? <a href="#">Sign in</a>
+          </div>
+
+          <div class="form-footer">
+            <a href="#" class="back-link">← Back</a>
+          </div>
+
+          <div class="privacy">
+            By signing up, you agree to the
+            <a href="#">Workify Privacy Statement</a>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./J.S/freeliance-signup.js"></script>
+</body>
+
+</html>
