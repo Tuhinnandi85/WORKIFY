@@ -2050,7 +2050,16 @@ button.submit:hover {
         font-size: 16px;
     }
 
-    /* paying-sec */
+    /* .paying-sec */
+
+    .col-md-100{
+        width: 100%;
+    }
+    .paying-sec .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .paying-content h4 {
         font-size: 36px;
     }
