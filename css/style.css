@@ -2015,7 +2015,7 @@ button.submit:hover {
     }
 
     /* compare-pricing */
-   
+
 
     .col-lg-100 {
         width: 100%;
@@ -2109,9 +2109,10 @@ button.submit:hover {
     .skilled a {
         font-size: 16px;
     }
+
     /* compare */
 
-     .compare-both{
+    .compare-both {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2286,8 +2287,9 @@ button.submit:hover {
         margin-top: 2px;
 
     }
+
     /* compare section */
-    
+
 
     .compare-content h4 {
         font-size: 28px;
@@ -2442,9 +2444,10 @@ button.submit:hover {
         padding: 8px;
 
     }
+
     /* compare-pricing */
 
-     .input-container {
+    .input-container {
         display: flex;
         flex-direction: column;
     }
@@ -2456,8 +2459,9 @@ button.submit:hover {
     .input-field {
         text-align: center;
     }
-    .priceSwiper{
-        width:250px;
+
+    .priceSwiper {
+        width: 250px;
     }
 
 }

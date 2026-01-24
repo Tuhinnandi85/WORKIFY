@@ -18,6 +18,9 @@
 body {
   background: #000
 }
+a{
+text-decoration: none;
+}
 
 .container {
   max-width: 1200px;
@@ -214,9 +217,10 @@ select.error {
 
 /* BUTTON */
 .register-btn {
+   display: block;
   width: 100%;
   font-size: 18px;
-
+text-align: center;
   background: #0a2a6b;
   color: #fff;
   padding: 12px;
