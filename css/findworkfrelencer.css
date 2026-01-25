@@ -385,6 +385,11 @@ nav {
 
 
 .banner-wrpr .title-1 {
+  font-family: "Judson", serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.95px;
+  color: #FFFFFF;
   margin-bottom: 15px;
   text-transform: capitalize;
 }
@@ -412,7 +417,13 @@ nav {
 }
 
 .any {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--color-white);
+}
+.any img{
+ margin-left: 10px;
 }
 
 .srch-box {
@@ -442,6 +453,7 @@ input[type="text"]::placeholder {
 }
 
 .sort {
+ 
   margin-left: 10px;
   padding: 18px 44px 18px 10px;
   border: 1px solid var(--color-white);
@@ -450,6 +462,14 @@ input[type="text"]::placeholder {
   font-size: 24px;
   font-weight: 400;
   color: var(--color-white);
+}
+.sort a{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sort a img{
+   margin-left: 10px;
 }
 
 .trending-sec {
@@ -593,11 +613,12 @@ input[type="text"]::placeholder {
   padding: 40px 0;
   font-size: 14px;
 }
+
 .footer-app {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   gap: 10px;
- 
+
 }
 
 .footer-app .app-icon img {
