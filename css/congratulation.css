@@ -15,7 +15,7 @@ html,
 body {
   
   scroll-behavior: smooth;
-  background: #000;
+  background:black;
   height: 100vh;
   font-family: "Poppins", sans-serif;
 }
@@ -84,6 +84,11 @@ img {
   text-decoration: underline;
   color: #ffffff;
   padding-bottom: 90px;
+  transition: 0.5s all ease-in ;
+}
+.experience-btn:hover{
+  color:  #F08526;
+
 }
 
 

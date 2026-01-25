@@ -18,6 +18,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  background-color: black;
+}
 
 /* layout */
 .container {

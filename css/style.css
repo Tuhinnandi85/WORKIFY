@@ -1425,10 +1425,11 @@ button.submit {
     border-radius: 20px;
     cursor: pointer;
     transition: 0.3s all ease-in;
+    border: 1px solid transparent;
 }
 
 button.submit:hover {
-    background: #e8cbb2;
+    background:var(--white);
     color: var(--orange);
     border: 1px solid var(--orange);
 }

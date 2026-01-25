@@ -16,7 +16,7 @@
 }
 
 body {
-    background: #1f1f1f;
+    background: black;
     padding: 40px 0;
 }
 
@@ -72,7 +72,7 @@ body {
     font-size: 36px;
     font-weight: 400;
     color: #fff;
-     font-family: "Judson", serif;
+    font-family: "Judson", serif;
 }
 
 
@@ -112,17 +112,17 @@ body {
 }
 
 .start-btn {
-    background: #fff;    
-    color: #F58B2B;   
-    text-decoration: none;    
-    padding: 16px 28px;   
-    font-size: 16px;    
-    border-radius: 50px;    
-    font-weight: 500;                           
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);           
-    margin-right: 10px;               
-    transition: 0.3s all ease-in;     
-    font-family: "Poppins", sans-serif;      
+    background: #fff;
+    color: #F58B2B;
+    text-decoration: none;
+    padding: 16px 28px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    margin-right: 10px;
+    transition: 0.3s all ease-in;
+    font-family: "Poppins", sans-serif;
 
 }
 
@@ -136,7 +136,7 @@ body {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     /* line-height: 1.4; */
-    
+
 }
 
 .close-btn svg {
