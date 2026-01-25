@@ -1429,7 +1429,7 @@ button.submit {
 }
 
 button.submit:hover {
-    background:var(--white);
+    background: var(--white);
     color: var(--orange);
     border: 1px solid var(--orange);
 }
@@ -1482,8 +1482,9 @@ button.submit:hover {
 
 
 .footer-col>p {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
+    font-family: var(--judson);
     margin-bottom: 12px;
     color: #fff;
     cursor: pointer;
@@ -1503,6 +1504,7 @@ button.submit:hover {
 }
 
 .footer-col ul li a {
+    font-size: 18px;
     color: #ddd;
     border-bottom: 1px solid transparent;
     transition: 0.5s all ease-in;
@@ -1554,22 +1556,44 @@ button.submit:hover {
     font-size: 13px;
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 60px;
     justify-content: center;
     align-items: center;
     color: #ccc;
 }
 
 .footer-bottom a {
+    font-size: 18px;
     color: #ccc;
     text-decoration: none;
     margin-right: 14px;
+    transition: 0.5s all ease-in;
+    border-bottom: 1px solid transparent;
 }
 
-.footer-bottom span {
-    margin-left: 14px;
-    color: #aaa;
+.footer-bottom a:hover {
+    color: #F08526;
+    border-bottom: 1px solid #F08526;
 }
+
+.lower-footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lower-footer a {
+    font-size: 18px;
+    color: #aaa;
+    transition: 0.5s all ease-in;
+    border-bottom: 1px solid transparent;
+}
+
+.lower-footer a:hover {
+    color: #F08526;
+    border-bottom: 1px solid #F08526;
+}
+
+
 
 
 
