@@ -1510,8 +1510,12 @@ button.submit:hover {
 }
 
 .footer-app .app-icon img {
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
+     transition: 0.5s all ease-in;
+}
+.footer-app .app-icon img:hover{
+    transform: scale(1.1);
 }
 
 .footer-icon {
@@ -1519,12 +1523,41 @@ button.submit:hover {
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 50px;
+    transition: 0.5s all ease-in;
+    border-bottom: 1px solid transparent;
+}
+
+.footer-icon svg {
+    margin-right: 10px;
+     transition: 0.5s all ease-in;
+   
+
+}
+
+.footer-icon a:hover svg {
+    transform: scale(1.1);
 }
 
 .footer-icon a {
+
     display: flex;
     color: white;
+    margin-top: 10px;
+
 }
+
+.footer-icon a span {
+    font-size: 16px;
+    transition: 0.5s all ease-in;
+    border-bottom: 1px solid transparent;
+}
+
+.footer-icon a:hover span {
+
+    color: #F08526;
+    border-bottom: 1px solid #F08526;
+}
+
 
 .contact-icon {
 
@@ -1597,13 +1630,20 @@ button.submit:hover {
 .footer-brand .footer-social,
 .footer-brand .footer-app {
     margin-top: 10px;
-    font-size: 14px;
+   
 }
 
 .footer-brand .footer-social span,
 .footer-brand .footer-app span {
+    font-size: 18px;
     margin-right: 8px;
     color: #ccc;
+}
+.footer-social .social-icon{
+    transition: .5s all ease-in;
+}
+.footer-social .social-icon:hover{
+     transform: scale(1.1);
 }
 
 .social-icon {
