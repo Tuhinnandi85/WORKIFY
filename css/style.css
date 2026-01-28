@@ -40,9 +40,7 @@ li {
 html,
 body {
     font-family: "Poppins", sans-serif;
-
     overflow-x: hidden;
-
 
 }
 
@@ -216,6 +214,12 @@ nav {
     align-items: center;
     gap: 30px;
     z-index: 999;
+}
+
+.navbar-menu .navlist .active {
+    width: fit-content;
+    /* text-decoration: underline; */
+
 }
 
 .navlink {
@@ -805,7 +809,9 @@ h5 {
 }
 
 /* LEFT */
-
+.left {
+    width: 50%;
+}
 
 .left h2 {
     font-size: 36px;
@@ -820,6 +826,9 @@ h5 {
 
 /* RIGHT */
 
+.right {
+    width: 50%;
+}
 
 .accordion-item {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -1512,9 +1521,10 @@ button.submit:hover {
 .footer-app .app-icon img {
     width: 22px;
     height: 22px;
-     transition: 0.5s all ease-in;
+    transition: 0.5s all ease-in;
 }
-.footer-app .app-icon img:hover{
+
+.footer-app .app-icon img:hover {
     transform: scale(1.1);
 }
 
@@ -1529,8 +1539,8 @@ button.submit:hover {
 
 .footer-icon svg {
     margin-right: 10px;
-     transition: 0.5s all ease-in;
-   
+    transition: 0.5s all ease-in;
+
 
 }
 
@@ -1630,7 +1640,7 @@ button.submit:hover {
 .footer-brand .footer-social,
 .footer-brand .footer-app {
     margin-top: 10px;
-   
+
 }
 
 .footer-brand .footer-social span,
@@ -1639,11 +1649,13 @@ button.submit:hover {
     margin-right: 8px;
     color: #ccc;
 }
-.footer-social .social-icon{
+
+.footer-social .social-icon {
     transition: .5s all ease-in;
 }
-.footer-social .social-icon:hover{
-     transform: scale(1.1);
+
+.footer-social .social-icon:hover {
+    transform: scale(1.1);
 }
 
 .social-icon {
