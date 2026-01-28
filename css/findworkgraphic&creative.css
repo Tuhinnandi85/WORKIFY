@@ -36,6 +36,14 @@ ul {
   list-style-type: none;
 }
 
+button {
+  border: none;
+  outline: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1850px;
   width: 100%;
@@ -378,14 +386,6 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
 /* ===================== */
 /* banneer section */
 /* ========================= */
@@ -393,11 +393,14 @@ nav {
   background: var(--color-purple);
   min-height: 100vh;
   /* height: 585px; */
-  padding: 50px 0;
+  /* padding-top: 165px; */
+  padding-bottom: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
 
 .banner-wrpr {
   text-align: center;
