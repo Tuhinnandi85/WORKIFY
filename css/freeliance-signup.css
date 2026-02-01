@@ -15,9 +15,7 @@
   font-family: Poppins, sans-serif;
 }
 
-body{
-  background-color: black;
-}
+
 a{
 text-decoration: none;
 }
@@ -26,6 +24,10 @@ text-decoration: none;
   max-width: 1200px;
   margin: 40px auto;
   padding: 0 15px;
+ 
+}
+.auth-box{
+ box-shadow: 3px -3px 8px 0 rgba(0, 0, 0, 0.2), -3px 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .row {
@@ -51,8 +53,9 @@ text-decoration: none;
   padding: 30px;
 }
 
-.logo {
-  width: 90px;
+.left-panel .logo-img {
+  width: 100px;
+  height: 100px;
   margin-bottom: 20px;
 }
 

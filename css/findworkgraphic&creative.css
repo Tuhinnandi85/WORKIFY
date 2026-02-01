@@ -3,10 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
 
 /* font-family: "Judson", serif; */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+
+.section-padding{
+  padding: 50px 0;
 }
 
 :root {
@@ -19,29 +19,6 @@
   --color-orange: #f08526;
 }
 
-html,
-body {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-button {
-  border: none;
-  outline: none;
-  padding: 0;
-  background: transparent;
-  cursor: pointer;
-}
 
 .container {
   max-width: 1850px;
@@ -237,6 +214,7 @@ nav {
 
 .navbar-btns .sign-dropdown {
   position: relative;
+
 }
 
 /* Button */
@@ -255,11 +233,11 @@ nav {
 /* Menu */
 .dropdown-menu {
   position: absolute;
-  top: 0px;
-  right: 160px;
+  top: 190px;
+  right: 200px;
   background: #0b1b6f;
   border-radius: 16px;
-  padding: 10px 0;
+  padding: 10px 0px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
@@ -276,8 +254,7 @@ nav {
 
 /* Menu items */
 .dropdown-menu li a {
-
-  display: block;
+ display: block;
   padding: 12px 20px;
   color: #ffffff;
   font-size: 18px;
@@ -393,7 +370,7 @@ nav {
   min-height: 100vh;
   /* height: 585px; */
   /* padding-top: 165px; */
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   display: flex;
   justify-content: center;
   align-items: center;

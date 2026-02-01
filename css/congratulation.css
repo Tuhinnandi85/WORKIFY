@@ -9,21 +9,15 @@
 
 
 
-
-body{
-  background-color: black;
-}
-
-
 .container {
-
   min-height: 100vh;
+ max-width: 1025px;
   width: 100%;
-  width: 1025px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+
 
 }
 
@@ -32,10 +26,11 @@ body{
   padding: 50px;
   border-radius: 20px;
   width: 100%;
+  box-shadow: 3px -3px 8px 0 rgba(0, 0, 0, 0.2), -3px 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-inner {
-  /* max-width: 925px; */
+ 
   background: #0b1560;
   border-radius: 12px;
   padding: 30px 98px;
@@ -52,12 +47,13 @@ body{
 }
 
 .card-inner .content>h2 {
-  max-width: 725px;
+ 
   margin-top: 50px;
   font-size: 36px;
   font-weight: 400;
   color: #fff;
   font-family: "Judson", serif;
+ text-align: center;
 
 }
 
@@ -68,10 +64,11 @@ body{
   text-decoration: underline;
   color: #ffffff;
   padding-bottom: 90px;
-  transition: 0.5s all ease-in ;
+  transition: 0.5s all ease-in;
 }
-.experience-btn:hover{
-  color:  #F08526;
+
+.experience-btn:hover {
+  color: #F08526;
 
 }
 

@@ -6,9 +6,7 @@
 
 /* font-family: "Poppins", sans-serif; */
 
-body{
-  background-color: black;
-}
+
 
 .container {
   height: 100vh;
@@ -21,9 +19,12 @@ body{
 }
 
 .card {
+  
   background: #ffffff;
   padding: 50px;
   border-radius: 10px;
+  box-shadow: 3px -3px 8px 0 rgba(0, 0, 0, 0.2), -3px 3px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .card-inner {
