@@ -6,12 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>sign_up</title>
 
-    <!-- Favicon -->
+  <!-- Favicon -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./asset/fabicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./asset/fabicon/favicon-32x32.png">
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- css link -->
+
+
   <link rel="stylesheet" href="./css/sign_up.css">
+  <link rel="stylesheet" href="./css/global.css">
 </head>
 
 <body>
@@ -26,37 +31,54 @@
           <a href="javascript:void(0)" class="close">×</a>
 
           <!-- logo -->
-          <img src="./asset/general_sign_up/logo.png" class="logo" alt="logo" loading="lazy">
+          <figure>
+            <img src="./asset/general_sign_up/logo.png" class="logo" alt="logo" loading="lazy">
+          </figure>
+
 
           <!-- options -->
           <div class="row options-row">
             <div class="col50">
               <a href="./for-client.html" class="option">
-                SEARCHING FOR EXPERTS TO<br>
-                WORK ON MY PROJECT
+                <figure>
+                  <img src="./asset/for_clint/paint-board.svg" alt="paint-board">
+                </figure>
+                <p> SEARCHING FOR EXPERTS TO <span> WORK ON MY PROJECT</span>
+                </p>
               </a>
             </div>
 
             <div class="col50">
               <a href="./for-freelance.html" class="option">
-                I'M SEEKING FREELANCE<br>
-                OPPORTUNITIES
+                <figure>
+                  <img src="./asset/for_clint/paint-board.svg" alt="paint-board">
+                </figure>
+                <p>I'M SEEKING FREELANCE<span> OPPORTUNITIES</span>
+                </p>
               </a>
             </div>
           </div>
 
           <!-- footer -->
-          <p class="signin">
-            Already have an account?
-            <a href="#">Sign in</a>
-          </p>
+          <div class="signin">
+            <p> Already have an account? </p>
+            <div class="dropdown">
+              <a href="#" class="dropdown-trigger">Sign in</a>
+
+              <ul class="dropdown-menu">
+                <li><a href="#">As a Client</a></li>
+                <li><a href="#">As a Freelancer</a></li>
+                <li><a href="#">As an Admin</a></li>
+              </ul>
+            </div>
+          </div>
 
         </div>
       </div>
 
     </div>
   </div>
-<script src="./J.S/sign_up.js"></script>
+  <script src="./J.S/sign_up.js"></script>
 </body>
 
 </html>

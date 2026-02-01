@@ -11,38 +11,28 @@
 
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-body{
-  background-color: black;
-}
 
 /* layout */
 .container {
- 
+
   max-width: 1030px;
   width: 100%;
   height: 100vh;
   margin: 80px auto;
- 
- 
-  
+
+
+
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-   justify-content: space-between;
+  justify-content: space-between;
   margin: 0 -15px;
 }
 
 .col33 {
-  
+
   width: 100%;
   padding: 0 15px;
 }
@@ -74,7 +64,7 @@ body{
   line-height: 30px;
   font-size: 20px;
   cursor: pointer;
-   transition: 0.3s all ease-in;
+  transition: 0.3s all ease-in;
 }
 
 .close:hover {
@@ -85,8 +75,9 @@ body{
 
 /* logo */
 .logo {
-  width: 120px;
-  margin-bottom: 30px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 /* options */
@@ -96,13 +87,28 @@ body{
 
 .option {
   width: 100%;
-  padding: 30px 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
   border: 1px solid #ddd;
-  border-radius: 12px;
-  font-size: 14px;
-  font-weight: 600;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.option img {
+  margin-bottom: 50px;
+}
+
+.option p {
+  text-align: start;
+}
+.option p span{
+  display: block;
 }
 
 /* hover */
@@ -120,7 +126,7 @@ body{
 
 /* button */
 .btn-orange {
-  display: inline-block;
+ display: inline-block;
   margin: 20px 0;
   padding: 14px 34px;
   background: #f08526;
@@ -129,15 +135,9 @@ body{
   border-radius: 30px;
   font-weight: 500;
   transition: 0.3s;
+   border: 2px solid transparent;
 }
 
-.btn-orange {
-  /* opacity: 0.5; */
-  /* pointer-events: none; */
-  border: 2px solid transparent;
-
-
-}
 
 .btn-orange:hover {
 
@@ -150,12 +150,76 @@ body{
 
 /* sign in */
 .signin {
-  font-size: 14px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 50px;
 }
 
 .signin a {
   color: #0b125a;
   text-decoration: underline;
+  margin-left: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Sign in link */
+.dropdown-trigger {
+  color: #0B125A;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.dropdown-trigger:hover {
+  color: #f08526;
+}
+
+/* Dropdown box */
+.dropdown-menu {
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+  background: #0b1a6d;
+  border-radius: 10px;
+  padding: 8px 0;
+  min-width: 160px;
+  width: 100%;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+/* Show dropdown */
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Menu items */
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hover effect */
+.dropdown-menu li a:hover {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 /* ================= Responsive ================= */
