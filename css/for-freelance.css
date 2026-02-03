@@ -13,30 +13,12 @@
 
 
 /* layout */
-.container {
- height: 100vh;
+.forfreelance-container {
+
   max-width: 1030px;
   width: 100%;
   margin: 80px auto;
 
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 -15px;
-}
-
-.col33 {
-
-  width: 100%;
-  padding: 0 15px;
-}
-
-.col50 {
-  width: 50%;
-  padding: 0 15px;
 }
 
 /* card */
@@ -99,6 +81,8 @@
 }
 
 .option img {
+  width: 24px;
+  height: 24px;
   margin-bottom: 50px;
 }
 
@@ -106,7 +90,8 @@
   color: black;
   text-align: start;
 }
-.option p span{
+
+.option p span {
   display: block;
 }
 
@@ -125,7 +110,7 @@
 
 /* button */
 .btn-orange {
- display: inline-block;
+  display: inline-block;
   margin: 20px 0;
   padding: 14px 34px;
   background: #f08526;
@@ -134,7 +119,7 @@
   border-radius: 30px;
   font-weight: 500;
   transition: 0.3s;
-   border: 2px solid transparent;
+  border: 2px solid transparent;
 }
 
 
@@ -149,7 +134,7 @@
 
 /* sign in */
 .signin {
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,6 +230,17 @@
   .logo {
     width: 50px;
   }
+
+  .options-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .option img{
+    margin-bottom: 10px;
+  }
+
 }
 
 @media (max-width: 480px) {

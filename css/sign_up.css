@@ -8,29 +8,13 @@
 
 
 
-/* container & row */
-.container {
+/* container */
+.signup-container {
   max-width: 1030px;
   width: 100%;
-  height: 100vh;
   margin: 80px auto;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-}
-
-.col33 {
-  width: 100%;
-  padding: 0 15px;
-}
-
-.col50 {
-  width: 50%;
-  padding: 0 15px;
-}
 
 /* card */
 .card {
@@ -56,6 +40,12 @@
   color: #333;
   font-size: 20px;
   line-height: 30px;
+  transition: 0.5s all ease;
+}
+.close:hover{
+  background-color: #f08526;
+  color: white;
+
 }
 
 /* logo */
@@ -90,6 +80,8 @@
 }
 
 .option img {
+  height: 24px;
+  width: 24px;
   margin-bottom: 50px;
 }
 
@@ -256,6 +248,16 @@
   .signin {
     font-size: 13px;
   }
+   .options-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .option img{
+    margin-bottom: 10px;
+  }
+
 }
 
 
