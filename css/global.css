@@ -69,7 +69,7 @@ button {
 
 .col {
     padding: 0 15px;
-    display: flex;
+   
 }
 
 .col-100{
@@ -99,9 +99,10 @@ button {
 
 
 :root {
+    
     --black: #000000;
     --orange: #F08526;
-    --dark_blue: #0B125A;
+    --dark_blue: #0B125A;   
     --white: #FFFFFF;
     --purple: #EDE1F3;
     --cream-orange: #FFE8D2;

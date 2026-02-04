@@ -3,7 +3,7 @@
 
 
 
-.container {
+.manually-container {
     max-width: 1320px;
     padding: 0 15px;
     margin: 0 auto;
@@ -11,28 +11,6 @@
 }
 
 
-
-:root {
-    --primary-color: #0B125A;
-    --secondary-color: #F08526;
-    --tertiary-color: #EDE1F3;
-    --font-color: #000000;
-    --newplatform-color: #202BAA;
-    --bgwhite-color: #FFFFFF;
-    --judson: "Judson";
-    --poppins: "Poppins"
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -15px;
-}
-
-.col-50 {
-    width: 50%;
-    padding: 0 15px;
-}
 
 /*=========================
 PROFILE SECTION
@@ -71,7 +49,7 @@ PROFILE SECTION
 
 .profile-card {
     padding: 50px;
-    background: var(--secondary-color);
+    background: var(--orange);
     border-radius: 20px;
     margin-top: 50px;
 }
@@ -187,7 +165,7 @@ PROFILE SECTION
 .profile-form {
     margin-top: 30px;
     font-family: var(--judson);
-    color: var(--bgwhite-color);
+    color: var(--white);
 }
 
 .form-group {
@@ -198,6 +176,7 @@ PROFILE SECTION
     display: block;
     font-size: 18px;
     margin-bottom: 6px;
+    color: var(--white);
 }
 
 
@@ -690,6 +669,11 @@ PROFILE SECTION
 
     border: 1.5px solid #ffffff;
     cursor: pointer;
+    transition: .3s all ease;
+}
+.back-btn:hover{
+    color: var(--orange);
+    background: white;
 }
 
 .right-actions {
@@ -713,7 +697,7 @@ PROFILE SECTION
     border-radius: 999px;
 
     background: #ffffff;
-    color: var(--secondary-color);
+    color: var(--orange);
     font-size: 14px;
     font-weight: 600;
 

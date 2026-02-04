@@ -22,97 +22,105 @@
 
 <body>
 
-  <div class="container">
+  <div class="freeliance-signup-container">
     <div class="row auth-box">
 
       <!-- LEFT SIDE -->
-      <div class="col50 left-panel">
-        <img src="./asset/freelance_sign_up/logo.png" alt="logo" loading="lazy" class="logo-img">
-        <img src="./asset/freelance_sign_up/picture.png" alt="images" loading="lazy">
+      <div class="col col-50 col-sm-100 ">
+        <div class="left-panel ">
+          <img src="./asset/freelance_sign_up/logo.png" alt="logo" loading="lazy" class="logo-img">
+          <img src="./asset/freelance_sign_up/picture.png" alt="images" loading="lazy">
+        </div>
       </div>
 
       <!-- FORM SIDE -->
-      <div class="col50 right-panel">
-        <h2 class="title">Create your Account</h2>
+      <div class="col col-50 col-sm-100">
+        <div class="right-panel  ">
+          <h2 class="title">Create your Account</h2>
 
-        <form id="registerForm">
+          <form id="registerForm">
 
-          <div class="row">
-            <div class="col50">
-              <label>First Name*</label>
-              <input type="text" required>
+            <div class="row">
+              <div class="col-50">
+                <label>First Name*</label>
+                <input type="text" required>
+              </div>
+              <div class="col-50">
+                <label>Last Name*</label>
+                <input type="text" required>
+              </div>
             </div>
-            <div class="col50">
-              <label>Last Name*</label>
-              <input type="text" required>
+
+            <label>Date of Birth*</label>
+            <div class="dob">
+              <select id="day" required></select>
+              <select id="month" required></select>
+              <select id="year" required></select>
             </div>
-          </div>
 
-          <label>Date of Birth*</label>
-          <div class="dob">
-            <select id="day" required></select>
-            <select id="month" required></select>
-            <select id="year" required></select>
-          </div>
+            <label>Contact No*</label>
+            <input type="tel" required>
 
-          <label>Contact No*</label>
-          <input type="tel" required>
+            <label>Email ID*</label>
+            <input type="email" required>
 
-          <label>Email ID*</label>
-          <input type="email" required>
+            <label>Create Password*</label>
+            <div class="password-box">
+              <input type="password" id="password" required placeholder="*use at least 8 alpha numeric characters...">
+              <i class="fa fa-eye" onclick="togglePass('password',this)"></i>
+            </div>
 
-          <label>Create Password*</label>
-          <div class="password-box">
-            <input type="password" id="password" required placeholder="*use at least 8 alpha numeric characters...">
-            <i class="fa fa-eye" onclick="togglePass('password',this)"></i>
-          </div>
+            <label>Retype Password*</label>
+            <div class="password-box">
+              <input type="password" id="confirm" required>
+              <i class="fa fa-eye" onclick="togglePass('confirm',this)"></i>
+            </div>
 
-          <label>Retype Password*</label>
-          <div class="password-box">
-            <input type="password" id="confirm" required>
-            <i class="fa fa-eye" onclick="togglePass('confirm',this)"></i>
-          </div>
+            <!-- OR -->
+            <div class="or-line"><span>Or</span></div>
 
-          <!-- OR -->
-          <div class="or-line"><span>Or</span></div>
+            <!-- SOCIAL -->
+            <div class="social">
+              <a href="https://accounts.google.com/" target="_blank" class="social google">
+               <span> Continue with Google</span>
+                <figure>
+                  <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="google" loading="lazy">
+                </figure>
+              </a>
 
-          <!-- SOCIAL -->
-          <div class="social">
-            <a href="https://accounts.google.com/" target="_blank" class="social google">
-              Continue with Google
-              <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="google" loading="lazy">
-            </a>
+              <a href="https://www.facebook.com/login/" target="_blank" class="social facebook">
+                <span>Continue with Facebook</span>
+                <figure>
+                  <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="facebook" loading="lazy">
+                </figure>
+              </a>
 
-            <a href="https://www.facebook.com/login/" target="_blank" class="social facebook">
-              Continue with Facebook
-              <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="facebook" loading="lazy">
-            </a>
+            </div>
 
-          </div>
+            <!-- CHECKBOX -->
+            <label class="checkbox">
+              <input type="checkbox">
+              <span></span>
+              Send me emails if there are any new updates
+            </label>
 
-          <!-- CHECKBOX -->
-          <label class="checkbox">
-            <input type="checkbox">
-            <span></span>
-            Send me emails if there are any new updates
-          </label>
+            <a href="./OTP.html" class="register-btn">Register</a>
 
-          <a href="./OTP.html" class="register-btn">Register</a>
+            <div class="signin">
+              Already have an account? <a href="#">Sign in</a>
+            </div>
 
-          <div class="signin">
-            Already have an account? <a href="#">Sign in</a>
-          </div>
+            <div class="form-footer">
+              <a href="#" class="back-link">← Back</a>
+            </div>
 
-          <div class="form-footer">
-            <a href="#" class="back-link">← Back</a>
-          </div>
+            <div class="privacy">
+              By signing up, you agree to the
+              <a href="#">Workify Privacy Statement</a>
+            </div>
 
-          <div class="privacy">
-            By signing up, you agree to the
-            <a href="#">Workify Privacy Statement</a>
-          </div>
-
-        </form>
+          </form>
+        </div>
       </div>
 
     </div>
