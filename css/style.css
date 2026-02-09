@@ -1952,7 +1952,7 @@ button.submit:hover {
 
 
 
-
+/*  =========== MAIN SECTION ========== */
 
 
 @media screen and (max-width: 1399px) {
@@ -1973,16 +1973,12 @@ button.submit:hover {
 
 @media screen and (max-width: 1199px) {
     .get {
-        padding: 26px 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
 
-    }
-
-    .get h2 {
-        font-size: 28px;
-    }
-
-    .get_offer {
-        font-size: 18px;
     }
 
 
@@ -1996,6 +1992,9 @@ button.submit:hover {
 }
 
 @media screen and (max-width: 1024px) {
+
+
+   
 
     /* basic */
     .card.basic .fee {
@@ -2053,18 +2052,6 @@ button.submit:hover {
 }
 
 @media screen and (max-width: 991px) {
-    .get {
-        padding: 24px 50px;
-
-    }
-
-    .get h2 {
-        font-size: 22px;
-    }
-
-    .get_offer {
-        font-size: 16px;
-    }
 
     .project_content h3 {
         font-size: 44px;
@@ -2145,17 +2132,19 @@ button.submit:hover {
 
 
     .get {
-        padding: 22px 28px;
+        padding: 20px 20px;
 
     }
 
     .get h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .get_offer {
-        font-size: 14px;
+        font-size: 18px;
     }
+
+
 
     .project_content h3 {
         font-size: 40px;
@@ -2210,6 +2199,15 @@ button.submit:hover {
         align-items: center;
     }
 
+        /* ==== ADVANTAGE ==== */
+    .advantage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
     /* .paying-sec */
 
     .col-md-100 {
@@ -2262,29 +2260,31 @@ button.submit:hover {
         margin-top: 15px;
 
     }
+    /* faq-section */
+       .faq {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-
-
-
-
-
+    }
+    
 
 }
 
 @media screen and (max-width: 576px) {
 
-
     .get {
-        padding: 10px 8px;
+        padding: 5px 5px;
 
     }
 
     .get h2 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .get_offer {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .project_content h3 {
@@ -2327,11 +2327,7 @@ button.submit:hover {
         font-size: 14px;
     }
 
-    /* ==== ADVANTAGE ==== */
-    .advantage {
-        flex-direction: column;
 
-    }
 
     /* paying-sec */
     .paying-content h4 {
@@ -2402,19 +2398,6 @@ button.submit:hover {
 @media screen and (max-width: 480px) {
 
 
-
-    .get {
-        padding: 10px 10px;
-
-    }
-
-    .get h2 {
-        font-size: 12px;
-    }
-
-    .get_offer {
-        font-size: 10px;
-    }
 
     .project_content h3 {
         font-size: 28px;
@@ -2560,18 +2543,8 @@ button.submit:hover {
 
 
 @media screen and (max-width: 320px) {
-    .get {
-        padding: 5px 5px;
 
-    }
 
-    .get h2 {
-        font-size: 8px;
-    }
-
-    .get_offer {
-        font-size: 6px;
-    }
 
     .project_content h3 {
         font-size: 20px;

@@ -18,13 +18,13 @@
 }
 
 :root {
-    --bg-color: #0B125A;
-    --font-color: #FFFFFF;
-    --primary-color: #F5F7F9;
-    --sec-color: #EDE1F3;
-    --secondary-color: #F08526;
-    --design-color: #EDE1F3;
-    --text-color: #000000;
+    --dark_blue: #0B125A;
+    --white: #FFFFFF;
+    --color-grey: #F5F7F9;
+    --purple: #EDE1F3;
+    --orange: #F08526;
+    --purple: #EDE1F3;
+    --black: #000000;
 
 }
 
@@ -338,7 +338,7 @@ DESIGNER SECTION
 */
 .designer-section {
     padding: 50px 20px;
-    background: var(--design-color);
+    background: var(--purple);
 }
 
 .design-title {
@@ -349,7 +349,7 @@ DESIGNER SECTION
 .designer-section h1 {
     font-size: 64px;
     font-weight: 600;
-    color: var(--bg-color);
+    color: var(--dark_blue);
     line-height: 1.3;
 }
 
@@ -361,7 +361,7 @@ DESIGNER SECTION
     margin-top: 10px;
     font-size: 24px;
     font-weight: 700;
-    color: var(--bg-color);
+    color: var(--dark_blue);
 }
 
 .filter-bar {
@@ -419,7 +419,7 @@ DESIGNER SECTION
     top: 110%;
     left: 0;
     width: 270px;
-    background: var(--bg-color);
+    background: var(--dark_blue);
     border-radius: 16px;
     padding: 14px;
     display: none;
@@ -456,7 +456,7 @@ DESIGNER SECTION
 }
 
 .category-menu a:hover {
-    color: var(--secondary-color);
+    color: var(--orange);
 }
 
 .category-menu hr {
@@ -466,7 +466,7 @@ DESIGNER SECTION
 }
 
 .highlight {
-    color: var(--secondary-color) !important;
+    color: var(--orange) !important;
     text-decoration: underline !important;
     font-family: "Judson";
 }
@@ -545,7 +545,7 @@ DESIGNER SECTION
     font-family: "Poppins";
     padding: 10px;
 
-    background: var(--bg-color);
+    background: var(--dark_blue);
     border-radius: 14px;
 
     display: none;
@@ -567,7 +567,7 @@ DESIGNER SECTION
 }
 
 .sort-menu a:hover {
-    color: var(--secondary-color);
+    color: var(--orange);
 }
 
 .sort-btn:focus {
@@ -578,7 +578,7 @@ DESIGNER SECTION
     width: fit-content;
     margin: 0 auto;
     font-size: 36px;
-    color: var(--bg-color);
+    color: var(--dark_blue);
     font-weight: 500;
     /* text-align: center; */
     font-family: "Judson";
@@ -630,18 +630,18 @@ MAIN SECTION
 .card-headings h1 {
     font-size: 48px;
     text-align: center;
-    color: var(--bg-color);
+    color: var(--dark_blue);
     font-family: "Judson";
 }
 
 .card-headings span {
-    color: var(--secondary-color);
+    color: var(--orange);
 }
 
 .card-part {
     padding: 20px;
     margin: 0 auto;
-    background: var(--bg-color);
+    background: var(--dark_blue);
     border-radius: 20px;
     max-width: 1120px;
     min-height: 518px;
@@ -649,7 +649,7 @@ MAIN SECTION
 }
 
 .card-part h2 {
-    color: var(--font-color);
+    color: var(--white);
     font-family: "Judson";
 }
 
@@ -680,14 +680,14 @@ MAIN SECTION
     width: 200px;
     font-weight: 600;
     font-family: "Judson";
-    color: var(--font-color);
+    color: var(--white);
     margin-bottom: 5px;
     font-size: 24px;
     white-space: nowrap;
 }
 
 .colon {
-    color: var(--font-color);
+    color: var(--white);
     margin: 0 10px;
 }
 
@@ -707,7 +707,7 @@ MAIN SECTION
 
 .card-buttons a {
     padding: 10px;
-    background: var(--font-color);
+    background: var(--white);
     color: black;
     border-radius: 30px;
     margin-right: 10px;
@@ -742,8 +742,8 @@ MAIN SECTION
 }
 
 .see-more-btn:hover {
-    background: var(--primary-color);
-    color: var(--bg-color);
+    background: var(--color-grey);
+    color: var(--dark_blue);
 }
 
 .rating-part {
@@ -761,7 +761,7 @@ MAIN SECTION
 
 .like-percentage {
     margin-left: 10px;
-    color: var(--font-color);
+    color: var(--white);
     font-family: "Poppins";
 }
 
@@ -771,7 +771,7 @@ EXPERT SECTION
 */
 .expert-section {
 
-    background: var(--sec-color);
+    background: var(--purple);
 }
 
 .expert-section h2 {
@@ -780,7 +780,7 @@ EXPERT SECTION
     margin-bottom: 30px;
     font-size: 36px;
     letter-spacing: 0.02em;
-    color: var(--bg-color);
+    color: var(--dark_blue);
     margin-bottom: 30px;
 }
 
@@ -814,7 +814,7 @@ EXPERT SECTION
 .service-pill a span {
     font-size: 16px;
     font-weight: 400;
-    color: var(--text-color);
+    color: var(--black);
     margin-left: 5px;
 }
 
@@ -1032,13 +1032,8 @@ EXPERT SECTION
 }
 
 
+/* ========== FOOTER END ========== */
 
-
-
-/*================================
-MEDIA QUERIES
-==================================
-*/
 
 
 
