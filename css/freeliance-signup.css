@@ -17,9 +17,7 @@
 
 }
 
-.auth-box {
- 
-}
+
 
 /* MAIN BOX */
 .auth-box {
@@ -152,11 +150,8 @@ select.error {
 }
 
 .social img {
-
-  /* border: 2px solid red; */
   height: 25px;
   width: 25px;
-  /* padding: 20px; */
   border-radius: 50px;
 
 }

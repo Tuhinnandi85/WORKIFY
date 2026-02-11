@@ -146,6 +146,11 @@ nav {
 
 }
 
+.nav-item .active {
+  width: fit-content;
+  border-bottom: 2px solid var(--dark_blue);
+}
+
 .navlink {
     display: flex;
     justify-content: center;
@@ -263,7 +268,7 @@ nav {
 }
 
 .dropdown-menu li a:hover {
-    background: rgba(255, 255, 255, 0.12);
+   color: var(--orange);
 }
 
 

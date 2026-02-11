@@ -160,6 +160,13 @@ nav {
   stroke: #fff;
 }
 
+.nav-item .active {
+  width: fit-content;
+  border-bottom: 2px solid var(--dark_blue);
+}
+
+
+
 .navbar-action-btns {
   display: flex;
   justify-content: center;

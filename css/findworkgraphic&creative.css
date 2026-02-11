@@ -145,6 +145,10 @@ nav {
   /* text-decoration: underline; */
 
 }
+.nav-item .active {
+  width: fit-content;
+  border-bottom: 2px solid var(--dark_blue);
+}
 
 .navlink {
   display: flex;

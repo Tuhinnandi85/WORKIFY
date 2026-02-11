@@ -121,6 +121,10 @@ nav {
     /* text-decoration: underline; */
 
 }
+.nav-item .active {
+  width: fit-content;
+  border-bottom: 2px solid var(--dark_blue);
+}
 
 .navlink {
     display: flex;
@@ -133,6 +137,7 @@ nav {
     transition: 0.3s ease;
     position: relative;
 }
+
 
 .navlink svg path {
     transition: 0.3s ease;

@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.container2 {
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+.section_padding {
+    padding: 50px 0;
+}
+
+/*=====================
+BLOG SECTION
+=======================
+*/
+.blog-section {
+    background: var(--color-bg);
+}
+
+.title {
+    font-size: 64px;
+    text-align: center;
+    color: var(--white);
+    font-family: var(--judson-font);
+}
+
+/*==========================
+FREELANCE SECTION
+============================
+*/
+
+
+.freelance-cntn {
+    display: flex;
+    align-items: center;
+}
+
+.left-img {
+    max-width: 687px;
+    width: 100%;
+}
+
+.left-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+.small-title {
+    color: var(--orange);
+    font-family: "Poppins";
+    margin-bottom: 10px;
+}
+
+.right-para {
+    max-width: 576px;
+    margin-left: 137px;
+}
+
+.para1 {
+    font-family: "Judson";
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.para2 {
+    margin-bottom: 20px;
+    font-family: var(--poppins-font);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.long-para {
+    max-width: 420px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-family: var(--poppins-font);
+}
+
+/*===============================
+NEWS SECTION
+=================================
+*/
+.news-section {
+
+    background: var(--purple);
+}
+
+.news-headings {
+    font-size: 48px;
+    color: var(--dark_blue);
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: var(--judson-font);
+}
+
+.news-card {
+    background: transparent;
+    text-align: left;
+}
+
+.news-card img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 18px;
+}
+
+.news-card .tag {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: var(--orange);
+    font-size: 14px;
+    font-family: var(--poppins-font);
+}
+
+.news-card h3 {
+    font-family: var(--judson-font);
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.news-card p {
+    font-family: var(--poppins-font);
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #999;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.swiper-button-prev {
+    left: -60px;
+}
+
+.swiper-button-next {
+    right: -60px;
+}
+
+/*==========================
+WORK SECTION
+============================
+*/
+.work-section {
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.work-card {
+    box-shadow: 3px -3px 8px 0 rgba(0, 0, 0, 0.2), -3px 3px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.work-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 288px;
+    width: 100%;
+
+
+}
+
+.work-content span {
+    font-size: 18px;
+    color: var(--orange);
+    margin-top: 99px;
+    margin-bottom: 10px;
+
+}
+
+.work-content h4 {
+    font-size: 36px;
+    color: var(--dark_blue);
+    font-family: var(--judson-font);
+    margin-bottom: 20px;
+}
+
+.work-content p {
+    font-size: 18px;
+    color: var(--black);
+    opacity: 40%;
+}
+
+
+/*==========================
+BUSINESS SECTION
+============================
+*/
+.business-section {
+
+    background: var(--color-grey);
+}
+
+.business-title h4 {
+    font-size: 48px;
+    color: var(--dark_blue);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--judson-font);
+}
+
+/*=====================
+FREELANCER SECTION
+=======================
+*/
+.freelancer-section {
+    padding: 55px 0;
+    background: var(--cream-orange);
+}
+
+.freelancer-headings h4 {
+    font-size: 48px;
+    color: var(--dark_blue);
+    text-align: center;
+    font-family: var(--judson-font);
+    margin-bottom: 20px;
+}
+
+/*========================
+WORK SECTION 
+==========================
+*/
+.blog-card {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+
+    display: flex;
+    /* gap: 20px; */
+    align-items: center;
+}
+
+.blog-img {
+    flex: 0 0 260px;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.blog-content {
+    flex: 1;
+}
+
+.news-card .tag {
+    color: var(--orange);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/*=============================
+FREELANCE SECTION MEDIA QUERIES
+================================
+*/
+@media screen and (max-width: 1200px) {
+    .left-img {
+        max-width: 520px;
+
+    }
+
+    .left-img img {
+        margin: 0 auto;
+    }
+
+    .right-para {
+        margin-left: 60px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .para1 {
+        font-size: 32px;
+    }
+
+    .long-para {
+        max-width: fit-content;
+    }
+
+    .freelance-cntn {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .Freelancer-tips {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ 
+
+    .work-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+
+    .freelance-section {
+        padding: 32px 0;
+    }
+
+    .left-img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .left-img img {
+        border-radius: 14px;
+    }
+
+    .right-para {
+        max-width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .small-title {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .para1 {
+        font-size: 22px;
+        line-height: 1.35;
+        margin-bottom: 10px;
+    }
+
+    .para2 {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+    .long-para {
+        font-size: 14px;
+        line-height: 1.6;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

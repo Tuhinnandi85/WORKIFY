@@ -69,10 +69,10 @@ button {
 
 .col {
     padding: 0 15px;
-   
+
 }
 
-.col-100{
+.col-100 {
     width: 100%;
 }
 
@@ -99,10 +99,11 @@ button {
 
 
 :root {
-    
+ 
     --black: #000000;
     --orange: #F08526;
-    --dark_blue: #0B125A;   
+    --dark_blue: #0B125A;
+    --color-bg: #050a39;
     --white: #FFFFFF;
     --purple: #EDE1F3;
     --cream-orange: #FFE8D2;
