@@ -195,7 +195,7 @@
 
 /* Hover effect */
 .dropdown-menu li a:hover {
-  background: rgba(255, 255, 255, 0.12);
+  color: var(--orange);
 }
 
 /* ================= Responsive ================= */

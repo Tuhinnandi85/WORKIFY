@@ -23,7 +23,7 @@ PROFILE SECTION
 
 .profile-wrpr {
     padding: 50px;
-    background: var(--tertiary-color);
+    background: var(--purple);
 }
 
 .profile-cntn {
@@ -43,7 +43,7 @@ PROFILE SECTION
     margin: 0 auto;
     font-family: var(--judson);
     font-size: 16px;
-    color: var(--primary-color) !important;
+    color: var(--dark_blue) !important;
     font-weight: 300;
 }
 
@@ -60,7 +60,7 @@ PROFILE SECTION
     font-family: var(--judson);
     font-size: 36px;
     margin-bottom: 20px;
-    color: var(--bgwhite-color) !important;
+    color: var(--white) !important;
 }
 
 .profile-edit {
@@ -88,13 +88,14 @@ PROFILE SECTION
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--primary-color);
+    background: var(--dark_blue);
     max-width: 120px;
     height: 30px;
-    color: var(--bgwhite-color);
+    color: var(--white);
     font-family: var(--poppins);
     font-size: 12px;
     margin-top: 20px;
+    
 }
 
 .edit-box span {
@@ -154,7 +155,7 @@ PROFILE SECTION
     content: "";
     width: 14px;
     height: 14px;
-    background: var(--primary-color);
+    background: var(--dark_blue);
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -341,7 +342,7 @@ PROFILE SECTION
     width: 160px;
     padding: 10px 0;
 
-    background: var(--primary-color);
+    background: var(--dark_blue);
     border-radius: 16px;
 
     /* list-style: none; */
