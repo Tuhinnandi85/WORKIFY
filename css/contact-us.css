@@ -720,152 +720,149 @@ GET IN TOUCH SECTION
 /* ========== FOOTER END ========== */
 
 
-
-
 /* =========================================
    RESPONSIVE DESIGN (Media Queries)
    ========================================= */
 
 
 
-
 /* tobbar start */
 @media screen and (max-width: 1440px) {
-    .navlist {
-        gap: 18px;
-    }
+  .navlist {
+    gap: 18px;
+  }
 
-    .navbar-action-btns {
-        gap: 16px;
-    }
+  .navbar-action-btns {
+    gap: 16px;
+  }
 
-    .btn {
-        padding: 13px 30px;
-    }
+  .btn {
+    padding: 13px 30px;
+  }
 }
 
 /* Large devices (laptops) */
 @media (max-width: 1200px) {
-    nav {
-        gap: 10px;
-    }
+  nav {
+    gap: 10px;
+  }
 
-    .btn {
-        padding: 8px 14px;
-    }
+  .btn {
+    padding: 8px 14px;
+  }
 }
 
 /* Medium devices (tablets landscape) */
 @media screen and (max-width: 1024px) {
-    .topbar {
-        padding: 18px 0;
-    }
+  .topbar {
+    padding: 18px 0;
+  }
 
-    .topbar-info {
-        gap: 12px;
-    }
+  .topbar-info {
+    gap: 12px;
+  }
 
-    .topbar-social {
-        gap: 6px;
-    }
+  .topbar-social {
+    gap: 6px;
+  }
 
-    .topbar-info-link {
-        font-size: 12px;
-    }
+  .topbar-info-link {
+    font-size: 12px;
+  }
 
-    .topbar-info-link figure,
-    .topbar-social-link figure {
-        max-width: 12px;
-    }
+  .topbar-info-link figure,
+  .topbar-social-link figure {
+    max-width: 12px;
+  }
 
-    .navbar {
-        padding: 16px 0;
-    }
+  .navbar {
+    padding: 16px 0;
+  }
 
-    nav {
-        padding: 8px 10px;
-        position: relative;
-    }
+  nav {
+    padding: 8px 10px;
+    position: relative;
+  }
 
-    .navbar-brand {
-        max-width: 70px;
-    }
+  .navbar-brand {
+    max-width: 70px;
+  }
 
-    .navlink {
-        color: #ffe8d2;
-    }
+  .navlink {
+    color: #ffe8d2;
+  }
 
-    .navlink svg path {
-        stroke: #ffe8d2;
-    }
+  .navlink svg path {
+    stroke: #ffe8d2;
+  }
 
-    .navbar-menu {
-        /* display: none; */
-        position: absolute;
-        top: 110%;
+  .navbar-menu {
+    /* display: none; */
+    position: absolute;
+    top: 110%;
 
-        transform: translateX(-50%);
-        /* Frost / base */
-        background: rgba(11, 18, 90, 1);
-        backdrop-filter: blur(16px) saturate(140%);
-        -webkit-backdrop-filter: blur(16px) saturate(140%);
-        /* Depth */
-        border: 1px solid rgba(255, 255, 255, 0.14);
-        width: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 20px 0;
-        border-radius: 50px;
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transition: 0.3s ease;
-        z-index: 999;
-    }
+    transform: translateX(-50%);
+    /* Frost / base */
+    background: rgba(11, 18, 90, 1);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    /* Depth */
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 0;
+    border-radius: 50px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: 0.3s ease;
+    z-index: 999;
+  }
 
-    .navbar-menu.active {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-        transform: translateX(-50%) translateY(0);
-        z-index: 999;
-    }
+  .navbar-menu.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+    z-index: 999;
+  }
 
-    .navlist {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+  .navlist {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-    .navbar-action-btns {
-        gap: 12px;
-    }
+  .navbar-action-btns {
+    gap: 12px;
+  }
 
-    .btn {
-        padding: 8px 14px;
-        font-size: 16px;
-    }
+  .btn {
+    padding: 8px 14px;
+    font-size: 16px;
+  }
 
-    .menu-btn {
-        font-size: 35px;
-        display: block;
-        /* color: #ede1f3; */
-    }
+  .menu-btn {
+    font-size: 35px;
+    display: block;
+    /* color: #ede1f3; */
+  }
 
 
-    /* sign in dropdown */
+  /* sign in dropdown */
 
-    .dropdown-menu {
-        top: 75px;
-        right: 130px;
+  .dropdown-menu {
+    top: 75px;
+    right: 130px;
 
-    }
+  }
 
-    .dropdown-menu li a {
-        padding: 10px 12px;
-        font-size: 16px;
-    }
+  .dropdown-menu li a {
+    padding: 10px 12px;
+    font-size: 16px;
+  }
 }
 
 /* Tablets */
@@ -873,81 +870,78 @@ GET IN TOUCH SECTION
 
 /* Small tablets / large phones */
 @media screen and (max-width: 768px) {
-    .topbar-wrapper {
-        justify-content: center;
-    }
+  .topbar-wrapper {
+    justify-content: center;
+  }
 
-    .topbar-rgt {
-        display: none;
-    }
-
-
-
+  .topbar-rgt {
+    display: none;
+  }
 }
 
 /* Mobile devices */
 @media (max-width: 576px) {
-    nav {
-        padding: 4px 8px 4px 4px;
-    }
+  nav {
+    padding: 4px 8px 4px 4px;
+  }
 
-    .navbar-brand {
-        max-width: 55px;
-    }
+  .navbar-brand {
+    max-width: 55px;
+  }
 
-    .btn {
-        padding: 8px 12px;
-        font-size: 12px;
-    }
+  .btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
 
-    .menu-btn {
-        font-size: 30px;
-    }
+  .menu-btn {
+    font-size: 30px;
+  }
 
-    .navlink {
-        font-size: 12px;
-    }
+  .navlink {
+    font-size: 12px;
+  }
 
-    .navbar-menu {
-        border-radius: 30px;
-    }
+  .navbar-menu {
+    border-radius: 30px;
+  }
 
-    /* sign in dropdown */
+  /* sign in dropdown */
 
-    .dropdown-menu {
-        top: 60px;
-        right: 100px;
+  .dropdown-menu {
+    top: 60px;
+    right: 100px;
 
-    }
+  }
 
-    .dropdown-menu li a {
-        font-size: 14px;
-    }
+  .dropdown-menu li a {
+    font-size: 14px;
+  }
 }
 
 /* Small mobile devices */
 @media (max-width: 480px) {
-    .topbar {
-        display: none;
-    }
+  .topbar {
+    display: none;
+  }
 
-    .navbar-action-btns {
-        gap: 8px;
-    }
+  .navbar-action-btns {
+    gap: 8px;
+  }
 }
 
 /* Extra small devices */
 @media (max-width: 375px) {
 
-    /* sign in dropdown */
-    .dropdown-menu {
-        top: 60px;
-        right: 110px;
-    }
+  /* sign in dropdown */
+  .dropdown-menu {
+    top: 60px;
+    right: 110px;
+  }
 
-    .dropdown-menu li a {
-        font-size: 10px;
-    }
+  .dropdown-menu li a {
+    font-size: 10px;
+  }
 }
 
 /* Very small phones */
@@ -955,7 +949,12 @@ GET IN TOUCH SECTION
 
 
 
+
+
+
 /* topbar end */
+
+
 
 /*==============================
 MEDIA QUERIES

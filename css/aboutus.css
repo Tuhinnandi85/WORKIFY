@@ -574,7 +574,7 @@ nav {
   transition: 0.3s all ease-in;
 }
 
-.btn:hover {
+.join-content .btn:hover {
   background: var(--white);
   box-shadow: 0 4px 8px 4px rgba(20, 19, 19, 0.101);
   color: var(--orange);
@@ -1094,7 +1094,7 @@ ABOUT US MEDIA QUERIES
     font-size: 32px;
   }
 
-  .btn {
+  .join-content .btn {
     width: 500px;
   }
 
@@ -1140,7 +1140,7 @@ ABOUT US MEDIA QUERIES
     padding: 40px 0;
   }
 
-  .btn {
+  .join-content .btn {
     width: 320px;
   }
 
