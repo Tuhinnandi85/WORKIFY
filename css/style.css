@@ -302,9 +302,9 @@ nav {
     justify-content: flex-start;
     align-items: center;
     background: linear-gradient(45deg,
-            rgba(250, 106, 10, 0.3) 33%,
-            rgba(255, 255, 255, 0.1) 100%),
-        url("../asset/HOME_PAGE/banner/hero.svg") center/cover no-repeat;
+            rgba(20, 27, 52,.4) 42%,
+            rgba(250, 106, 10,.08) 61%),
+        url("../asset/HOME_PAGE/banner/main_banner.png") center/cover no-repeat;
 }
 
 .banner .container {
@@ -574,7 +574,11 @@ h1 {
     background-color: #ffffff;
     box-shadow: 3px -3px 8px 0 rgba(0, 0, 0, 0.2), -3px 3px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 15px 0;
+transition: 0.3s all ease;
 
+}
+.projects .card:hover{
+    transform: translateY(-5px);
 }
 
 .icon_img {
@@ -584,7 +588,8 @@ h1 {
 
 }
 
-.card_text {
+ .card_text a{
+    color: var(--black);
     font-size: 24px;
     max-width: 190px;
     width: 100%;

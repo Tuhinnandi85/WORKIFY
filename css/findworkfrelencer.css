@@ -376,10 +376,11 @@ nav {
 
 
 .banner-sec {
-  background: linear-gradient(to right,
-      rgba(250, 106, 10, 0.3) 33%,
-      rgba(255, 255, 255, 0.1) 100%),
-    url("../asset/findworkfrelencer/hero.svg") center / cover no-repeat;
+  background: linear-gradient(45deg,
+      rgba(0, 0, 0, 0.2) 23%,
+      rgba(20, 27, 52, .4) 46%,
+      rgba(250, 106, 10, .08) 100%),
+    url("../asset/findworkfrelencer/find_work_banner.png") center / cover no-repeat;
   min-height: 800px;
   padding-top: 165px;
   padding-bottom: 80px;
@@ -535,11 +536,12 @@ nav {
 
 
 .search-box {
-  
+
   position: relative;
   flex: 1;
   max-width: 420px;
   margin: 0 20px;
+
 }
 
 .search-box input {
@@ -552,6 +554,7 @@ nav {
   background: transparent;
 
 }
+
 
 .search-icon {
   position: absolute;
@@ -1178,7 +1181,7 @@ nav {
     margin-bottom: 60px;
   }
 
-  h1 {
+  h3 {
     font-size: 50px;
     text-align: center;
   }
@@ -1235,7 +1238,7 @@ nav {
     font-size: 10px;
   }
 
-  h1 {
+  h3 {
     font-size: 30px;
   }
 
@@ -1321,16 +1324,17 @@ nav {
 
 @media screen and (max-width:576px) {
 
-  .btns{
+  .btns {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-.btns a{
-  font-size:12px ;
 
-}
+  .btns a {
+    font-size: 12px;
+
+  }
 
 
 }

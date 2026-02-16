@@ -278,9 +278,9 @@ nav {
     justify-content: flex-start;
     align-items: center;
     background: linear-gradient(45deg,
-            rgba(250, 106, 10, 0.3) 33%,
-            rgba(255, 255, 255, 0.1) 100%),
-        url("../asset/HOME_PAGE/banner/hero.svg") center/cover no-repeat;
+            rgba(20, 27, 52,.4) 42%,
+            rgba(250, 106, 10,.08) 61%),
+        url("../asset/hiretalentsforcient/hiretalentclint_banner.png") center/cover no-repeat;
 }
 
 .banner .container {
